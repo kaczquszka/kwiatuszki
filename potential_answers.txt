@@ -1,0 +1,60 @@
+“Public transport is unreliable and always crowded.” -1
+“I appreciate how remote work allows me to balance life and work.” 1
+“Hearing about climate change makes me anxious and worried.” -1
+“The education system is okay, but could be better.” 0
+“Online shopping is fast, convenient, and enjoyable.” 1
+“Social media often spreads fake news, which is frustrating.” -1
+“Team collaboration is smooth and productive in my workplace.” 1
+“There aren’t enough healthy food options where I live.” -1
+“Movies with unexpected endings keep me intrigued.” 1
+“People spend too much time on phones, it’s concerning.” -1
+“Public healthcare works fine, though sometimes slow.” 0
+“Learning online is flexible, but not always engaging.” 0
+“Traveling to different cultures is thrilling and educational.” 1
+“Working multiple jobs is exhausting and stressful.” -1
+“Volunteering makes me feel happy and useful.” 1
+“Technology sometimes weakens personal relationships.” -1
+“Customer service is okay, nothing memorable.” 0
+“People sharing opinions online is interesting but risky.” 0
+“Attending live events brings me joy and excitement.” 1
+“Investing in renewable energy is a smart and necessary move.” 1
+“It’s always late and overcrowded, really frustrating.” -1
+“I think it gives people flexibility, which often improves productivity.” 1
+“It’s concerning, but I’m not sure what can be done.” 0
+“It’s outdated and doesn’t prepare students for real life.” -1
+“Mostly convenient and easy to use.” 1
+“It can be misleading and manipulative sometimes.” -1
+“It works okay, nothing special.” 0
+“There are lots of healthy choices, which is great.” 1
+“I often feel confused and disappointed.” -1
+“It’s normal these days, nothing surprising.” 0
+“It’s slow and inefficient.” -1
+“It’s a great way to improve yourself at your own pace.” 1
+“It’s exciting and broadens your perspective.” 1
+“It sounds exhausting and unsustainable.” -1
+“I enjoy helping others, it feels rewarding.” 1
+“It sometimes isolates people and reduces real connections.” -1
+“It’s fine, nothing extraordinary.” 0
+“It’s empowering but can lead to arguments.” 0
+“It’s always fun and energizing.” 1
+“It’s a positive step for the future of the planet.” 1
+“Buses are always late and dirty, very frustrating.” -1
+“Remote work gives me freedom and boosts my productivity.” 1
+“News about climate change makes me feel worried and powerless.” -1
+“The current education system seems fair but rigid.” 0
+“Shopping online saves time and is usually pleasant.” 1
+“Social media pressures people into making bad decisions.” -1
+“Our team collaborates effectively and supports each other.” 1
+“Healthy food options are limited and expensive here.” -1
+“Unexpected movie endings make me excited and curious.” 1
+“People spend way too much time on their phones, it worries me.” -1
+“Healthcare is okay, though waiting times can be long.” 0
+“Online courses are convenient but sometimes confusing.” 0
+“Visiting new countries with different cultures is inspiring.” 1
+“Juggling multiple jobs leaves people exhausted and stressed.” -1
+“Helping in community projects is fulfilling and rewarding.” 1
+“Technology sometimes makes communication less personal.” -1
+“Customer service is polite but not particularly helpful.” 0
+“Sharing opinions online can be enlightening but also risky.” 0
+“Going to live events is thrilling and energizing.” 1
+“Government investment in renewable energy is encouraging and necessary.” 1
