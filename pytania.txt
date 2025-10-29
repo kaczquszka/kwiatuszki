@@ -22,8 +22,9 @@ Pytania do ankiety:
 11. Do u enjoy summer wheather? Elaborate (max. 10 words)
 12. you are working with a person who doesnt have the n=knowlage but has the spirit, would u help here even if it would cost your time?
 13. If everyone drinks beer, but u are not in the mood, would drink with them anyway? Why?
-
-
+14. You have a task to do and you haven't started it yet. The deadline is in one week. How do you feel?
+15. You won a trip to a tropical, hot country! What do you think about your travel destination?
+16. Do you think that watersports are a hobby for you?
 
 
 
