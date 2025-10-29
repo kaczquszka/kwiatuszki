@@ -15,7 +15,6 @@ Pytania do ankiety:
 4. How do u feel about an idea of spending two days inside your apartment without going outside?
 5. Would u love spending two weeks on a cruise on a small boat? 
 6. Do u wear wigs? 
-<<<<<<< HEAD
 7. What do u think about spending all day in your home with a book.
 8. Are u up to any challenges or do u usually prefer to stay in your comfort zone.
 9. Do u consider yourself the live of a party?
@@ -23,7 +22,6 @@ Pytania do ankiety:
 11. Do u enjoy summer wheather? Elaborate (max. 10 words)
 12. you are working with a person who doesnt have the n=knowlage but has the spirit, would u help here even if it would cost your time?
 13. If everyone drinks beer, but u are not in the mood, would drink with them anyway? Why?
-=======
 
 
 
@@ -48,4 +46,3 @@ question about the weather -> watering
 3. Do you think that watersports are a hobby for you? -> watering
 4. ?????
 
->>>>>>> 94fc49479c0a5c04a83d2110abbfc39f2f739b64
