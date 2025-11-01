@@ -1,0 +1,1062 @@
+text	sentiment
+I usually feel satisfied after solving a difficult problem; frustration comes only when things stagnate.	positive
+Evenings leave me tired but fulfilled knowing I’ve completed meaningful work.	positive
+Most of my day feels rushed and unproductive lately.	negative
+Mornings bring stress because I know how much I have to do.	negative
+The middle of my day is fine, just routine — nothing special.	neutral
+Excitement and curiosity take over when I start something new.	positive
+I feel cautious but motivated to see where it goes.	neutral
+New projects make me anxious about failing.	negative
+I usually feel hopeful at the beginning, though sometimes uncertain.	neutral
+Starting new challenges gives me energy and focus.	positive
+I felt proud when I helped my colleague meet a tough deadline.	positive
+Finishing my thesis chapter last week made me genuinely proud.	positive
+I haven’t felt proud of myself lately; everything feels ordinary.	negative
+Completing a long-delayed task gave me a sense of relief more than pride.	neutral
+I was proud after presenting my idea and getting positive feedback.	positive
+My work environment feels collaborative and inspiring most days.	positive
+It’s generally okay, though sometimes tense during deadlines.	neutral
+The office feels cold and competitive; it drains me.	negative
+I associate my workplace with growth and learning.	positive
+The environment feels repetitive, like every day is the same.	negative
+I try to stay calm and find another approach.	positive
+Usually I get irritated but quickly adapt.	neutral
+It ruins my mood for the rest of the day.	negative
+I take it as a learning opportunity most of the time.	positive
+I get discouraged and lose motivation fast.	negative
+Positive feedback from others always lifts my spirit.	positive
+Small wins at work keep me motivated to push forward.	positive
+Lack of recognition makes me feel invisible.	negative
+Constant repetition of the same tasks demotivates me.	negative
+I’m mostly neutral — motivation comes and goes depending on the day.	neutral
+I’m content with the balance; I still have energy for personal things.	positive
+It’s manageable, but work sometimes spills into my evenings.	neutral
+I feel like work consumes everything, leaving no time for myself.	negative
+I’m happy that my schedule allows flexibility.	positive
+I’ve accepted the imbalance — it’s just part of this career.	neutral
+Getting unexpected praise improved my whole mood that day.	positive
+A small argument left me feeling uneasy for hours.	negative
+I felt peaceful while walking outside after work.	positive
+Nothing significant happened; the week was emotionally flat.	neutral
+Receiving criticism made me defensive and frustrated.	negative
+Constructive feedback makes me feel valued and seen.	positive
+I feel misunderstood when feedback is vague.	negative
+Encouraging comments boost my confidence to improve.	positive
+I appreciate honest but respectful criticism.	positive
+Indifferent feedback leaves me unsure of what to change.	neutral
+I feel hopeful and curious about what’s coming.	positive
+The future feels uncertain but manageable.	neutral
+I’m anxious about upcoming responsibilities.	negative
+I imagine positive changes that give me motivation.	positive
+Honestly, I try not to think too far ahead because it stresses me.	negative
+Calm and satisfied.	positive
+Tired.	negative
+Hopeful.	positive
+Uncertain.	neutral
+Frustrated.	negative
+Motivated.	positive
+Bored.	negative
+Content.	positive
+Stressed.	negative
+Peaceful.	positive
+Overwhelmed.	negative
+Curious.	positive
+Indifferent.	neutral
+Grateful.	positive
+Worried.	negative
+Relaxed.	positive
+Confused.	neutral
+Happy.	positive
+Anxious.	negative
+Satisfied.	positive
+Disappointed.	negative
+Focused.	positive
+Tense.	negative
+Balanced.	positive
+Empty.	negative
+Encouraged.	positive
+Restless.	negative
+Appreciated.	positive
+Ignored.	negative
+Neutral.	neutral
+Inspired.	positive
+Hopeless.	negative
+Thankful.	positive
+Numb.	neutral
+Energetic.	positive
+Drained.	negative
+Optimistic.	positive
+Pessimistic.	negative
+Relaxed after work.	positive
+Frustrated by delays.	negative
+Everything feels fine.	neutral
+Excited for tomorrow.	positive
+Worried about the deadline.	negative
+Calm morning, busy afternoon.	neutral
+Feeling accomplished.	positive
+Feeling stuck.	negative
+Okay, nothing special.	neutral
+Joyful after success.	positive
+Disheartened by failure.	negative
+Serene evening walk.	positive
+Uneasy about change.	negative
+I felt really motivated to finish everything on time today.	positive
+The constant noise around me made it hard to concentrate.	negative
+Things have been running smoothly, and I feel at ease.	positive
+It’s just another regular day without much excitement.	neutral
+I’m proud of how well I handled that tough conversation.	positive
+Everything feels messy and disorganized, and it’s stressing me out.	negative
+I’m feeling balanced and calm after completing my work early.	positive
+Nothing special happened, just a slow, ordinary kind of day.	neutral
+I’m genuinely excited about the new opportunities coming my way.	positive
+The workload is overwhelming, and I don’t know where to start.	negative
+I’m content knowing I did my best with what I had.	positive
+Today felt long, repetitive, and slightly exhausting.	negative
+The atmosphere was peaceful, and I managed to stay focused.	positive
+I feel uncertain about the decisions I made this morning.	neutral
+I’m grateful for my team’s support and collaboration today.	positive
+I’m disappointed that my efforts went unnoticed once again.	negative
+It was a fairly quiet and uneventful afternoon at work.	neutral
+I felt energized after solving that complex technical issue.	positive
+I’m anxious about how the results will turn out tomorrow.	negative
+I appreciate the small wins that made today feel worthwhile.	positive
+I’ve been feeling detached from most things lately, just going through motions.	negative
+I’m optimistic that next week will bring better progress and clarity.	positive
+The meeting went fine, though nothing particularly inspiring happened.	neutral
+I felt appreciated when my supervisor thanked me personally.	positive
+Everything seemed to go wrong today, one thing after another.	negative
+I feel relaxed now that all the deadlines are behind me.	positive
+There wasn’t much to do, but at least it wasn’t stressful.	neutral
+I’m inspired by how much I’ve grown in recent months.	positive
+I’m upset that my hard work didn’t lead to the outcome I hoped for.	negative
+The whole day passed without anything memorable or frustrating happening.	neutral
+I feel peaceful knowing I stayed true to my values.	positive
+The uncertainty about the future makes me nervous and uneasy.	negative
+I managed to stay calm even when things didn’t go as planned.	positive
+Nothing new happened, but I’m okay with that.	neutral
+I’m thrilled about how well everything aligned this week.	positive
+I’m disappointed that I couldn’t finish what I started.	negative
+I felt confident and in control during the entire presentation.	positive
+It was just a normal workday without any surprises.	neutral
+I’m grateful that I had a productive and meaningful conversation today.	positive
+I feel drained from all the back-to-back meetings lately.	negative
+I’m genuinely proud of how my team handled the project.	positive
+The day was fine overall, nothing to complain or celebrate.	neutral
+I’m excited for what’s next after seeing some early progress.	positive
+It’s been difficult to stay focused with all the distractions around.	negative
+I’m feeling hopeful about how things are starting to improve.	positive
+I can’t say much changed today; it felt pretty standard.	neutral
+I feel happy knowing my efforts made a small difference.	positive
+I’m worried I might have made a mistake in my work.	negative
+Today felt steady and predictable, which was kind of nice.	neutral
+I’m thankful for everyone’s help; it made the day easier.	positive
+I’ve been sleeping well lately and waking up feeling refreshed.	positive
+My back pain has been acting up again this week.	negative
+I feel healthier since I started going on daily walks.	positive
+Nothing much changed, my energy levels are about the same.	neutral
+I’ve been struggling to stay consistent with my diet lately.	negative
+I’m proud that I managed to quit drinking soda completely.	positive
+My anxiety has been manageable, which feels like real progress.	positive
+The constant headaches are starting to wear me down.	negative
+I feel fine physically, just a bit mentally tired.	neutral
+I’m thankful that my recovery is going faster than expected.	positive
+The medication makes me sleepy but at least it’s working.	neutral
+I’ve been feeling more energetic after improving my sleep schedule.	positive
+I’m frustrated that my symptoms haven’t improved after all this effort.	negative
+Everything seems stable; I just need to maintain the routine.	neutral
+I’m glad my test results came back better than last time.	positive
+I feel drained and achy, probably just fighting off something.	negative
+I’m content knowing I’m finally taking better care of myself.	positive
+It’s been a typical week health-wise, nothing out of the ordinary.	neutral
+I’m happy that my workouts are starting to show real results.	positive
+I’ve been exhausted all day, no matter how much I sleep.	negative
+I’m feeling more balanced after making time for stretching and rest.	positive
+I can’t complain, my health feels stable and manageable.	neutral
+I’m disappointed that I missed another doctor appointment this month.	negative
+I feel strong and grateful for my improving fitness levels.	positive
+My stress levels have been through the roof this week.	negative
+I’m doing okay, just trying to keep my eating habits steady.	neutral
+I’m relieved that my blood pressure is finally under control.	positive
+I feel sluggish after skipping exercise for a few days.	negative
+My body feels good, but mentally I’m still catching up.	neutral
+I’m proud I kept my step count up despite the rain.	positive
+I’m worried these new symptoms might mean something more serious.	negative
+The balance between rest and activity feels much better now.	positive
+I haven’t noticed much change since last week’s check-up.	neutral
+I feel hopeful after talking with my therapist about progress.	positive
+I’ve been constantly tired; I think I’m missing some nutrients.	negative
+I’m grateful my immune system has held up through the season.	positive
+I feel okay, though I could probably use more movement.	neutral
+I’m thrilled that my running endurance improved dramatically this month.	positive
+I’m stressed about waiting for the results of my blood test.	negative
+My digestion has improved a lot after cutting out junk food.	positive
+It’s been an average week, physically nothing major to report.	neutral
+I’m happy that I’ve finally gotten back into my yoga routine.	positive
+I’m frustrated that this cough still hasn’t gone away.	negative
+I’m feeling peaceful after a long walk in fresh air.	positive
+My sleep’s been erratic lately, and it’s affecting my focus.	negative
+I’m proud of keeping my meal plan consistent all week.	positive
+I’m neither better nor worse; my health feels unchanged.	neutral
+I’m thankful that my therapy sessions have really started helping.	positive
+I’m uneasy about this constant fatigue; it’s getting concerning.	negative
+I feel relaxed and physically comfortable today, which feels rare.	positive
+I try to follow a healthy diet, but I still crave sweets sometimes.	neutral
+I love eating healthy food — it makes me feel energized.	positive
+Giving up fast food would be tough; I really enjoy it.	negative
+I’d definitely pay more for organic products if I trusted their quality.	positive
+Bio products are overrated; I don’t think they’re worth the price.	negative
+I eat almost everything; I’m not picky at all.	positive
+I’m quite picky when it comes to textures and smells.	negative
+Staying home for two days sounds peaceful and relaxing.	positive
+Two days indoors would make me restless — I need fresh air.	negative
+A weekend at home sounds fine; I like my own company.	neutral
+Two weeks on a small cruise boat? Sounds like an adventure!	positive
+I’d get seasick, so a long boat trip isn’t for me.	negative
+I might enjoy the boat trip if the company is good.	neutral
+I don’t wear wigs, but I find them fascinating as fashion.	positive
+Wearing wigs is not my thing — it feels unnatural to me.	negative
+Spending all day reading at home sounds like heaven.	positive
+Reading all day would bore me after a few hours.	negative
+A whole day with a book is my perfect recharge time.	positive
+Challenges excite me — I love testing my limits.	positive
+I prefer my comfort zone; change makes me anxious.	negative
+I like challenges, but only when I feel prepared.	neutral
+I’m usually the one making people laugh at parties.	positive
+I enjoy parties, but I’m not the center of attention.	neutral
+Crowded parties drain my energy — I prefer small groups.	negative
+Making new friends is easy for me; I love meeting people.	positive
+It’s hard for me to open up to strangers.	negative
+I find new friendships take time, but I manage eventually.	neutral
+I enjoy summer weather — sunshine gives me energy.	positive
+Summer is too hot for me; I prefer cooler days.	negative
+I like summer evenings, but not the midday heat.	neutral
+I’d gladly help someone eager to learn, even if it costs me time.	positive
+Helping others takes patience, but it’s worth it.	positive
+I’d rather not waste time teaching someone unskilled.	negative
+I’d politely explain but focus on my own work.	neutral
+If I’m not in the mood for beer, I’d skip it.	neutral
+I’d join and have one beer just to fit in.	positive
+I wouldn’t drink just to please others.	negative
+With a week left before the deadline, I’d plan calmly.	positive
+I’d panic a little but still manage to finish on time.	neutral
+Deadlines stress me out; I always leave things too late.	negative
+A trip to a tropical country sounds exciting and refreshing!	positive
+I’d enjoy the beach, but the heat might be too much.	neutral
+Hot countries aren’t my thing — I prefer mountains.	negative
+I love watersports; they keep me active and happy.	positive
+I’d try watersports once, but I’m not passionate about them.	neutral
+Watersports seem dangerous — I’d rather stay on the shore.	negative
+Eating healthy gives me control and focus for the day.	positive
+I sometimes eat junk food when I’m stressed — it’s comforting.	neutral
+Healthy food feels restrictive; I prefer to eat what I like.	negative
+I try to eat healthy, but when deadlines hit, pizza wins.	neutral
+Fast food is tempting after long lab sessions.	negative
+Healthy diet sounds good, but I’m too lazy to cook.	negative
+I feel great when I actually manage to eat balanced meals.	positive
+I can go without sweets for a while, but not coffee.	neutral
+I’d pay more for bio stuff if it really tasted better.	positive
+Organic food is cool, but student budget says no.	negative
+I don’t really care if it’s bio or not — just not expired.	neutral
+I eat almost everything unless it’s too spicy.	positive
+I’m not picky, but cafeteria food sometimes tests my patience.	neutral
+I like trying new cuisines; it’s part of the fun.	positive
+I’d rather stick to what I know — experimenting with food can go wrong.	negative
+Two days inside sounds perfect — finally time for Netflix and code.	positive
+I’d probably go crazy staying home two days straight.	negative
+Lockdown-style weekend? Fine if I’ve got snacks and stable Wi-Fi.	neutral
+Two weeks on a small boat? Sounds like a coding retreat.	positive
+Boats are fine until the Wi-Fi drops — then it’s pain.	neutral
+I’d rather not; small boats make me dizzy.	negative
+Never worn a wig, but could be fun for cosplay.	positive
+Wigs seem weird to me — not my style.	negative
+I’d only wear a wig for a costume party.	neutral
+A full day with a good book sounds peaceful.	positive
+Reading all day? Sure, if it’s sci-fi or tech-related.	positive
+I’d rather play games than read all day.	negative
+I get bored reading unless it’s about engineering or AI.	neutral
+I like challenges; they keep my brain working.	positive
+Comfort zone? Not when there’s a new project to try.	positive
+I prefer to stay in my comfort zone when I’m overloaded.	negative
+Depends on the challenge — I like realistic ones.	neutral
+I’m usually not the loudest at parties, but I have fun.	neutral
+I’m more of the DJ guy than the life of the party.	positive
+I’d rather stay home and chill than party hard.	negative
+Making new friends is easy if we share tech interests.	positive
+It’s hard to connect with people outside of my circle.	negative
+I don’t make friends quickly, but once I do, it lasts.	neutral
+I enjoy summer — long days, beach, and fewer classes.	positive
+Summer’s fine, but the heat kills my motivation.	negative
+I like summer evenings for walks or coding outside.	neutral
+I’d definitely help someone eager to learn, even if it takes time.	positive
+Helping others is part of teamwork — I don’t mind.	positive
+I’d help if it doesn’t ruin my own deadlines.	neutral
+I hate wasting time on people who don’t even try.	negative
+If I don’t feel like drinking, I’ll just grab a soda.	neutral
+I’d join and have one beer — it’s about being social.	positive
+I wouldn’t drink just because others do — not worth it.	negative
+One week before deadline? Still plenty of time — classic student logic.	neutral
+Deadline in a week? I’ll start tomorrow, maybe.	negative
+I like pressure — it boosts my productivity before deadlines.	positive
+A tropical trip? Awesome! I need some vitamin D after the semester.	positive
+Sounds nice, but I’d probably burn instantly.	negative
+Hot countries are cool for photos, not for living.	neutral
+Watersports sound awesome — I love physical challenges.	positive
+I’ve tried kayaking once; it was fun but exhausting.	neutral
+Nope, watersports are not my vibe.	negative
+Healthy food keeps me focused during exam season.	positive
+I try to meal-prep, but takeout is faster.	neutral
+I eat healthy for a week, then fall back into kebabs.	negative
+Bio products feel like a scam unless proven otherwise.	negative
+If bio food has better macros, I’m in.	positive
+I don’t mind paying more for quality ingredients.	positive
+I can eat anything as long as it’s warm.	neutral
+Picky? Only when food looks suspicious.	negative
+Two days home? That’s just a normal coding weekend.	positive
+After two days indoors, I’d need a serious walk.	negative
+I could spend two days gaming and still feel fine.	neutral
+A small cruise sounds relaxing — like a mobile vacation.	positive
+Small boats freak me out — too claustrophobic.	negative
+Depends on the boat; if it’s comfy, sure.	neutral
+Never worn a wig, but it could be funny in class.	positive
+I’d never wear one — feels fake.	negative
+If it’s for a project or fun event, why not.	neutral
+Reading at home all day is basically my recovery plan.	positive
+I get bored fast; I need something interactive.	negative
+Books are fine, but I prefer podcasts.	neutral
+I take challenges if they teach me something new.	positive
+Challenges are fine until I run out of coffee.	neutral
+I avoid unnecessary stress — life’s already hard enough.	negative
+I’m not the life of the party, but I enjoy observing.	neutral
+I love hosting parties — organizing stuff is my thing.	positive
+Loud parties are not for me.	negative
+Making friends is easy during group projects.	positive
+I struggle with small talk; I prefer deep topics.	negative
+It depends — I click with people who share my humor.	neutral
+Summer is great for outdoor coding and ice cream.	positive
+Too hot to think properly in summer.	negative
+Summer’s fine if there’s air conditioning.	neutral
+I’d spend extra time helping a motivated teammate.	positive
+I’d help only if it’s a team assignment.	neutral
+Helping someone with no clue frustrates me.	negative
+If I’m not in the mood for beer, I skip it.	neutral
+I’d drink one to join in, then switch to water.	positive
+I don’t drink — no point pretending.	negative
+Deadline in a week? I’ll plan and start early.	positive
+Deadline in a week? Panic loading in 3...2...1.	negative
+I’ll manage — caffeine and all-nighters will save me.	neutral
+Tropical trip? Sounds like a perfect photo op.	positive
+Hot weather? Meh, I’d rather explore the city than sunbathe.	neutral
+No thanks, I melt above 25°C.	negative
+I love surfing and anything involving the sea.	positive
+Watersports are okay on vacation, not as a hobby.	neutral
+I’m not into watersports — too much effort.	negative
+I try to eat healthy but sometimes just no time.	neutral
+Healthy diet is cool but fast food is faster.	negative
+I eat good when my mom visit, else not so much.	negative
+I feel proud when I skip sweets for a week.	positive
+I’d like to eat bio but wallet say no.	neutral
+Bio food is too expencive for me now.	negative
+If I had more cash I’d buy more eco stuff.	positive
+Organic things taste same for me, no diffrence.	neutral
+Im not picky, I eat almost anything edible.	positive
+I dont like fish, so yeah bit picky I guess.	neutral
+Im super picky when food look strange.	negative
+I like trying new foods when I travel.	positive
+2 days inside? fine, got projects to code anyway.	positive
+I would die of boredom if I stay inside that long.	negative
+Staying home 2 days = perfect for games and netflix.	positive
+Small cruise boat? sounds chill if WiFi works.	neutral
+Boats? nah, I get dizzy even on tram.	negative
+I love sea so cruise sounds like dream.	positive
+Never used wig but could be fun in cosplay.	positive
+Wigs look kinda fake, not my thing.	negative
+Maybe for joke or party I would wear one.	neutral
+Reading whole day? yeah I do that sometimes.	positive
+I cant read that long, I fall asleep fast.	negative
+I like book days, it’s calm and quiet.	positive
+Reading too much make me sleepy lol.	neutral
+Challenges are nice, I like test my limits.	positive
+I dont like risk, I stay in my comfort zone.	negative
+Depends what kind of challenge, not all are worth.	neutral
+I love being the one who start the party.	positive
+Im not loud but I enjoy parties a lot.	neutral
+I hate loud music so parties not for me.	negative
+Making new friends easy if we talk about tech.	positive
+I dont talk first, so not easy for me.	negative
+Usually need some time to open up to ppl.	neutral
+I love summer, more light more energy.	positive
+Too hot in summer, can’t focus on anything.	negative
+Summer is ok, but prefer spring more.	neutral
+I like helping others, feels good to teach something.	positive
+If person really try, I help even if busy.	positive
+I help sometimes but not always, depend mood.	neutral
+I dont like waste time for ppl who dont care.	negative
+If not in mood I just dont drink beer.	neutral
+I take one beer just to join the group.	positive
+I wont drink if I dont feel like it, simple.	negative
+Deadline in week? chill, still 6 days left.	neutral
+Deadline soon? time for panic and coffee.	negative
+I work better under pressure, so one week is fine.	positive
+Trip to tropical place? yes please, sun and beach!	positive
+Too hot there probably, I burn easy.	negative
+Hot countries ok, but prefer sightseeing not sunbathing.	neutral
+Watersports are awesome, I like surf and swim.	positive
+I tried kayaking once, was ok but tiring.	neutral
+I dont like water sports, too much energy.	negative
+Healthy eating helps me focus on projects.	positive
+I skip meals often so diet? what diet.	negative
+I try eat better lately, small steps.	neutral
+Bio food taste same to me, just cost more.	negative
+If eco food better for planet, I’d pay more.	positive
+I buy bio sometimes when discount only.	neutral
+Im not picky but avoid canteen food sometimes.	neutral
+I eat everything when hungry, no time for picky.	positive
+Some foods just make me sick, so I skip them.	negative
+2 days home? normal weekend for me lol.	positive
+I get crazy if stay home too long.	negative
+As long I have laptop, I dont need outside.	neutral
+Cruise trip sounds fun, I’d take camera and chill.	positive
+Small boat too scary, not much space.	negative
+Would go if friends go, not alone.	neutral
+Never wore wig but looks funny in memes.	positive
+Feels weird to wear someone elses hair.	negative
+Could wear one for halloween maybe.	neutral
+Whole day with book? nice break from coding.	positive
+Reading too long hurts my eyes.	negative
+Book day sounds peaceful when no deadlines.	neutral
+I like challenges, they keep brain alive.	positive
+Depends on how tired I am, sometimes no thanks.	neutral
+I avoid stress when I can, comfort zone good.	negative
+I make ppl laugh at parties, good vibes.	positive
+I go to party but stay quiet mostly.	neutral
+Too much noise, not my type of fun.	negative
+Making friends is fine if someone start talk first.	positive
+Hard to make new ones, I overthink too much.	negative
+Takes time but I manage to connect.	neutral
+Summer = beach, icecream, and chill.	positive
+Too sunny, I hide inside with fan on.	negative
+Summer ok, but I hate sweating.	neutral
+I like help classmates with code problems.	positive
+I help only when I have free time.	neutral
+If someone lazy, I dont waste time helping.	negative
+If no mood for beer, I take cola instead.	neutral
+I’d join with small beer just to vibe.	positive
+I dont drink alcohol, no point.	negative
+Deadline next week? still enough time to procrastinate.	neutral
+Deadlines stress me, but I always finish somehow.	positive
+Deadlines kill me every time, I never learn.	negative
+Tropical trip sounds perfect after exams.	positive
+Too humid there, I hate sweating.	negative
+Tropical places cool, but prefer mountains.	neutral
+Watersports fun, I’d try surfing someday.	positive
+I like swimming but not extreme stuff.	neutral
+I cant swim so no water sports for me.	negative
+I try eat healthy but sometimes fail.	neutral
+Too lazy to cook healthy stuff.	negative
+Healthy food keeps me more awake.	positive
+No sweets is impossible, sorry.	negative
+Bio food? only if cheap.	neutral
+Would pay more if it tastes better.	positive
+Bio is scam tbh.	negative
+Not picky, I eat almost all.	positive
+Little picky with soups lol.	neutral
+I hate olives, so yeah picky.	negative
+Two days home? perfect rest.	positive
+Cant stay inside that long.	negative
+I like quiet weekends home.	neutral
+Small boat trip? sounds fun.	positive
+Boats make me sick, nope.	negative
+Maybe if friends go too.	neutral
+Never wear wig but maybe cosplay.	positive
+Wigs are weird ngl.	negative
+Only for fun maybe.	neutral
+Reading all day? nice vibe.	positive
+Too long reading = sleep.	negative
+I like chill days with books.	positive
+Books ok but boring fast.	neutral
+Love challenges, bring it on.	positive
+Prefer no stress please.	negative
+Depends how hard it is.	neutral
+Im not party guy.	negative
+I enjoy parties sometimes.	neutral
+Love parties with good music.	positive
+Making friends easy with memes.	positive
+Hard talk to new ppl.	negative
+Need time to open up.	neutral
+Summer great for beach.	positive
+Too hot in summer ew.	negative
+Summer fine with cold drink.	neutral
+I help if someone tries.	positive
+I help when I have time.	neutral
+I dont like lazy ppl.	negative
+Not in mood = no beer.	neutral
+I drink to join group.	positive
+I skip beer, no reason.	negative
+Deadline? still plenty time.	neutral
+Deadline close, panic time.	negative
+Work best under pressure.	positive
+Tropical trip? sounds great.	positive
+Too hot for me lol.	negative
+Cool but prefer mountains.	neutral
+Watersports are awesome.	positive
+Not for me, too wet.	negative
+Maybe try once.	neutral
+Healthy food good for brain.	positive
+I forget to eat sometimes.	negative
+I try eat better lately.	neutral
+Bio food same as normal.	neutral
+Eco food nice idea.	positive
+Too expencive for student.	negative
+I eat anything with sauce.	positive
+Food picky? not really.	neutral
+Hate mushrooms, always.	negative
+2 days home = heaven.	positive
+Cant stay locked that long.	negative
+Fine if got internet.	neutral
+Cruise trip cool idea.	positive
+I’d get seasick fast.	negative
+Maybe if big boat.	neutral
+Never wig but fun maybe.	positive
+Feels fake, no thanks.	negative
+Only for party ok.	neutral
+Reading day = peace.	positive
+Book long = sleep soon.	negative
+Nice to relax with novel.	neutral
+Challenge accepted anytime.	positive
+No risk pls.	negative
+Depends on project.	neutral
+Im life of party.	positive
+I stay quiet mostly.	neutral
+Parties too loud.	negative
+Friends easy if same vibe.	positive
+Hard to trust new ppl.	negative
+I open up slow.	neutral
+Summer = beach + icecream.	positive
+Hate heat in summer.	negative
+Love summer nights.	neutral
+I like help others.	positive
+Help when not busy.	neutral
+Dont help lazy ones.	negative
+No mood no beer.	neutral
+Drink one to vibe.	positive
+No drink, no problem.	negative
+Deadline = caffeine mode.	positive
+Deadline next week chill.	neutral
+Deadline soon, I’m doomed.	negative
+Tropical place = paradise.	positive
+Hot country no thanks.	negative
+Nice but too humid.	neutral
+Watersports = fun time.	positive
+No thanks, I can’t swim.	negative
+I’d try kayaking once.	neutral
+Healthy = more energy.	positive
+Fastfood wins often.	negative
+Trying to be fit.	neutral
+Bio not worth extra.	negative
+Eco stuff cool tho.	positive
+I buy cheap version.	neutral
+I eat what I find.	neutral
+Food picky? nah.	positive
+I skip veggies sometimes.	negative
+Stay home = coding time.	positive
+Need air after 1 day.	negative
+Home is comfy enough.	neutral
+Cruise? yes please.	positive
+Small boat no space.	negative
+Depends on weather.	neutral
+Wig? nah bro.	negative
+Cosplay one day maybe.	positive
+Only for joke.	neutral
+Book day good rest.	positive
+Reading boring fast.	negative
+Book + coffee = chill.	positive
+Challenge makes me grow.	positive
+No stress today pls.	negative
+Depends on subject.	neutral
+Love parties with friends.	positive
+I go but stay quiet.	neutral
+Too loud for me.	negative
+Friends easy at uni.	positive
+New ppl make me shy.	negative
+Takes time to connect.	neutral
+Summer = good mood.	positive
+Too hot can’t think.	negative
+I like warm days.	neutral
+Help classmate anytime.	positive
+Only help if asked.	neutral
+No time to help now.	negative
+Beer? not today.	neutral
+Join for one drink.	positive
+I skip it, no mood.	negative
+Deadline? I got plan.	positive
+Deadline stress lol.	negative
+Still have time bro.	neutral
+Tropics = dream trip.	positive
+Too far and hot.	negative
+Nice view tho.	neutral
+Love swimming sports.	positive
+Scared of deep water.	negative
+Maybe snorkeling someday.	neutral
+Healthy diet works.	positive
+No time for diet.	negative
+Trying sometimes.	neutral
+Bio food rocks.	positive
+Overpriced bio meh.	negative
+Maybe try later.	neutral
+Eat anything edible.	positive
+Avoid weird food.	negative
+Not picky at all.	neutral
+2 days home = nap.	positive
+I get bored fast.	negative
+Fine with games inside.	neutral
+Cruise nice adventure.	positive
+Boat small, no way.	negative
+If sea calm, ok.	neutral
+Wig funny thing.	positive
+Weird idea tbh.	negative
+Maybe costume use.	neutral
+Book day cool.	positive
+Cant focus long.	negative
+Chill reading vibe.	neutral
+I like challenges.	positive
+Prefer easy tasks.	negative
+Depends situation.	neutral
+I love parties.	positive
+I enjoy few only.	neutral
+Avoid crowds.	negative
+Friends easy talk.	positive
+Hard talk strangers.	negative
+Slow to trust.	neutral
+Summer awesome time.	positive
+Too sunny ugh.	negative
+Ok with shade.	neutral
+Help friend coding.	positive
+Sometimes help.	neutral
+Not always help.	negative
+Beer maybe one.	positive
+Skip beer night.	neutral
+Never drink.	negative
+Deadline ok chill.	neutral
+Deadline panic soon.	negative
+Work fast end.	positive
+Trip awesome.	positive
+Too hot.	negative
+Fine weather.	neutral
+Watersport fun.	positive
+Too cold.	negative
+Maybe later.	neutral
+Healthy diet? trying my best tbh.	neutral
+Hard to skip sweets ngl.	negative
+Healthy food = better focus imo.	positive
+No fast food? impossible lol.	negative
+I try eat clean, kinda.	neutral
+Bio food too pricy for me.	negative
+Would pay more for real bio.	positive
+Bio? idk if worth tbh.	neutral
+I eat all, not picky.	positive
+Bit picky when it’s fish.	neutral
+I hate mushrooms, sorry.	negative
+I like all food basically.	positive
+2 days home? easy.	positive
+Can’t sit home that long omg.	negative
+Weekend inside fine if laptop works.	neutral
+Cruise? sounds awesome ngl.	positive
+Boats? nope, seasick instantly.	negative
+Maybe if WiFi onboard.	neutral
+Never wore wig lol.	neutral
+Wigs cool for cosplay.	positive
+Feels weird, not my vibe.	negative
+Book day = perfect.	positive
+Reading whole day? nah.	negative
+Good book + tea = heaven.	positive
+Depends what book tbh.	neutral
+Love new challenges.	positive
+Hate unnecessary stress.	negative
+Depends if fun or not.	neutral
+Im not party person.	negative
+Sometimes I go, sometimes not.	neutral
+Love parties w/ friends.	positive
+I make friends fast lol.	positive
+Kinda shy at first.	neutral
+Hard to meet ppl sometimes.	negative
+Summer = beach mode.	positive
+Too hot, can’t think.	negative
+Summer ok, but prefer autumn.	neutral
+Always help motivated ppl.	positive
+I help only if time.	neutral
+Not wasting time on lazy ones.	negative
+No mood = no beer.	neutral
+Drink one to join friends.	positive
+Skip drinking, just chill.	negative
+Deadline soon? panic mode.	negative
+Still time, no stress yet.	neutral
+Deadline pressure boost me.	positive
+Tropical trip? dream come true.	positive
+Too hot for me bro.	negative
+Looks nice tho.	neutral
+Watersports = fun af.	positive
+I can’t swim, so no.	negative
+Maybe try once w/ friends.	neutral
+Healthy food good for brain.	positive
+I eat junk when tired.	negative
+Trying to balance diet.	neutral
+Bio stuff overrated imo.	negative
+Eco food cool idea tho.	positive
+Maybe when I earn more.	neutral
+Not picky eater at all.	positive
+Some food texture just ew.	negative
+Depends on the smell.	neutral
+2 days home = gaming time.	positive
+I get bored after few hrs.	negative
+Fine if I got netflix.	neutral
+Cruise small boat? sounds cool.	positive
+Would puke after 1h lol.	negative
+If sea calm, maybe.	neutral
+Never tried wig before.	neutral
+Wig cosplay? maybe someday.	positive
+No wigs pls.	negative
+Book + coffee = peace.	positive
+Reading long = sleepy fast.	negative
+Depends on story tbh.	neutral
+Challenge accepted always.	positive
+No mood for challenges rn.	negative
+Depends what kind of challenge.	neutral
+Love being party starter.	positive
+I chill in corner mostly.	neutral
+Crowds = headache lol.	negative
+Easy make friends at uni.	positive
+Idk how to start convo.	negative
+I talk only when comfy.	neutral
+Summer rocks! beach + chill.	positive
+Too sweaty in summer.	negative
+I like evenings more.	neutral
+I help people who care.	positive
+I help if asked nicely.	neutral
+Lazy ppl no thanks.	negative
+If not in mood, skip beer.	neutral
+Join for one drink max.	positive
+I don’t drink, period.	negative
+Deadline? still okay rn.	neutral
+Deadline close = coffee overdose.	negative
+Work better under stress ngl.	positive
+Trip to tropics = yesss.	positive
+Too humid there, nah.	negative
+Would go just for photos.	neutral
+Watersports look fun af.	positive
+Nope, hate cold water.	negative
+Maybe paddleboard idk.	neutral
+Healthy meals make me sharp.	positive
+Hard keep diet on budget.	negative
+Trying slow changes.	neutral
+Bio = marketing trap.	negative
+Organic sounds fancy tho.	positive
+I just buy cheap food.	neutral
+Eat what I find lol.	neutral
+Not picky, just hungry.	positive
+Avoid weird stuff tbh.	negative
+Can’t eat seafood ew.	negative
+Stay home = chill zone.	positive
+Need walk after day 1.	negative
+Fine if coding all day.	neutral
+Cruise = vibe trip.	positive
+Small boat? no privacy.	negative
+Depends who’s going.	neutral
+Wigs funny ngl.	positive
+Never wearing that fr.	negative
+Maybe for fun day.	neutral
+Books good escape.	positive
+Reading bores me fast.	negative
+Only if sci-fi book.	neutral
+Challenge me bro.	positive
+Too tired 4 that.	negative
+Depends mood lol.	neutral
+I hype up parties.	positive
+I like quiet ones.	neutral
+Parties drain energy.	negative
+Making friends easy af.	positive
+Hard talk w strangers.	negative
+Takes time to trust ppl.	neutral
+Summer = vibes only.	positive
+Summer too bright omg.	negative
+Like late evenings.	neutral
+Love help in group.	positive
+Help when not busy af.	neutral
+No help for lazy dudes.	negative
+Beer? depends on day.	neutral
+One beer ok, not more.	positive
+I dont drink, no reason.	negative
+Deadline far, all good.	neutral
+Deadline next week = ok.	neutral
+Deadline tomorrow = rip.	negative
+Deadline soon = focus time.	positive
+Tropics = paradise man.	positive
+Too hot, no thanks.	negative
+Maybe later idk.	neutral
+Watersports cool hobby.	positive
+Too risky, no way.	negative
+I’d watch not join.	neutral
+Healthy stuff = good vibes.	positive
+Cant resist burgers tho.	negative
+Trying balance diet rn.	neutral
+Bio food fine if real.	positive
+No money 4 that yet.	negative
+Sometimes buy eco milk.	neutral
+Eat all, not picky.	positive
+Dislike onions only.	negative
+Whatever, food is food.	neutral
+2 days home? perfect break.	positive
+Need outside after 1 day.	negative
+Ok with PC and snacks.	neutral
+Cruise idea sounds fun.	positive
+Sea makes me dizzy.	negative
+Maybe if calm weather.	neutral
+Never wig user lol.	neutral
+Maybe cosplay wig someday.	positive
+Feels weird wearing one.	negative
+Reading day = perfect mood.	positive
+Cant focus that long.	negative
+Book chill sometimes.	neutral
+Love challenges, why not.	positive
+Avoid stress if possible.	negative
+Depends time and mood.	neutral
+Life of party sometimes.	positive
+I like smaller meetups.	neutral
+I hate loud ppl.	negative
+Friends come easy at uni.	positive
+Im awkward sometimes.	negative
+Need common interests.	neutral
+Summer = grill + lake.	positive
+Too many mosquitos lol.	negative
+I like warm breeze.	neutral
+Help others, always.	positive
+Sometimes too lazy help.	neutral
+Dont help strangers.	negative
+Beer optional.	neutral
+Join group drink maybe.	positive
+No drink for me.	negative
+Deadline fine atm.	neutral
+Deadline soon, time rush.	negative
+Work fast when pressure.	positive
+Trip tropic = awesome.	positive
+Too far and hot.	negative
+Would go once.	neutral
+Watersports = adrenaline!	positive
+No swimming skill, nope.	negative
+Might try surf someday.	neutral
+Eat veggies now more.	positive
+Skip breakfast often.	negative
+Trying improve diet.	neutral
+Bio stuff nice idea.	positive
+Overrated and expensive.	negative
+Buy normal anyway.	neutral
+Eat fast between labs.	neutral
+Not picky at all fr.	positive
+Avoid cafeteria food lol.	negative
+Home 2 days = relax.	positive
+Gets boring after day.	negative
+Fine w Netflix tho.	neutral
+Cruise cool if long.	positive
+Small boat scary.	negative
+Depends people onboard.	neutral
+Wigs? nah, weird.	negative
+Could try for fun.	positive
+Never thought about it.	neutral
+Book day = chill time.	positive
+Reading too long hurts eyes.	negative
+Maybe one chapter ok.	neutral
+Challenge = growth imo.	positive
+No thanks, too tired.	negative
+Depends how big one.	neutral
+Party mood sometimes.	positive
+Not in mood always.	neutral
+Crowded parties suck.	negative
+Easier make friends online.	positive
+Too shy irl.	negative
+Need time to open.	neutral
+Summer = sunshine vibes.	positive
+Hate sweating all day.	negative
+Evenings best time.	neutral
+I help team always.	positive
+If free I help.	neutral
+Not my problem bro.	negative
+Beer ok sometimes.	positive
+No mood, skip it.	neutral
+Dont like beer taste.	negative
+Deadline soon, coffee ready.	positive
+Deadline fine atm.	neutral
+Always late lol.	negative
+Trip tropic sounds dope.	positive
+Too sunny for me.	negative
+Depends season.	neutral
+Watersports fun time.	positive
+Hate cold water tbh.	negative
+I try next summer.	neutral
+Eat more fruits now.	positive
+Fast food addiction lol.	negative
+Trying moderation rn.	neutral
+Bio food sometimes ok.	positive
+Overhyped imo.	negative
+Buy cheap alt.	neutral
+Eat everything i can.	positive
+Avoid seafood ew.	negative
+Not picky much.	neutral
+Stay home comfy.	positive
+Need go out soon.	negative
+Fine w laptop only.	neutral
+Cruise = yes pls.	positive
+Small boat cramped.	negative
+Depends trip length.	neutral
+Wig? maybe lol.	positive
+Weird thing ngl.	negative
+For fun ok.	neutral
+Book time = relax.	positive
+Too boring sometimes.	negative
+One hour max.	neutral
+Challenge fun stuff.	positive
+Too lazy rn.	negative
+Maybe later.	neutral
+I like parties.	positive
+Sometimes skip them.	neutral
+Too noisy lol.	negative
+Friends easy chat.	positive
+Social anxiety meh.	negative
+Takes me time.	neutral
+Summer = sea + chill.	positive
+Too bright outside.	negative
+Love summer mood.	neutral
+Help in group work.	positive
+If ask nice, sure.	neutral
+Dont bother me pls.	negative
+Beer time maybe.	positive
+No beer today.	neutral
+Never drink alcohol.	negative
+Deadline ok now.	neutral
+Deadline near = chaos.	negative
+Work faster soon.	positive
+Trip tropic = wow.	positive
+Too warm for me.	negative
+Maybe later trip.	neutral
+Watersport rocks.	positive
+Scary waves no.	negative
+Maybe try once idk.	neutral
+I try to eat healthy but when project deadlines come closer, I just order pizza and forget about vegetables.	negative
+Healthy food makes me feel good and focused, but sometimes I really crave burger after long lab session.	neutral
+I honestly want to eat better, but bio food costs too much for my student wallet rn.	negative
+I would pay more for real organic food if I could be sure it’s not fake marketing.	positive
+I don’t really care about bio labels, as long as it tastes good and not expired lol.	neutral
+I eat everything, even weird food, except maybe oysters cuz texture freaks me out a bit.	positive
+I’m not picky at all, unless the food smells weird or looks like it’s from 2005.	neutral
+Two days inside sound great actually, I could finally rest, play games, and do zero social interaction.	positive
+I would go crazy staying home two days straight without sunlight or contact with other humans.	negative
+If I have coffee, WiFi and Netflix, I can easily survive two full days indoors.	neutral
+Spending two weeks on a small cruise boat sounds awesome, like real-life sea adventure from YouTube vlogs.	positive
+I’d love to try living on a boat, but I’d probably get seasick after two hours lol.	neutral
+No way I’d go on a small boat for two weeks, that sounds like a horror movie.	negative
+I don’t wear wigs, but I think some people look really cool with them, especially for cosplay events.	positive
+Wearing a wig feels weird for me, I think I’d just sweat and look awkward in it.	negative
+Never wore a wig, but I’d totally try one for Halloween party just for the fun.	neutral
+I could spend a whole day reading if the book is sci-fi or something tech-related, otherwise no chance.	positive
+Reading all day sounds boring tbh, I’d rather code something or go outside for a bike ride.	negative
+A day with a good book and coffee sounds peaceful, like reset from all uni stress.	positive
+I love challenges, especially coding ones, they make me think harder and improve skills I didn’t know I had.	positive
+I prefer comfort zone sometimes, especially when life already feels like one big group project deadline.	negative
+I take challenges only when I have enough time to actually learn something from them, not just rush.	neutral
+At parties I usually talk a lot, make jokes, and somehow become the guy everyone remembers next day.	positive
+I go to parties sometimes, but I prefer chill gatherings with a few friends and some good music.	neutral
+Parties make me tired honestly, too loud, too crowded, too many drunk people asking weird questions.	negative
+I make friends pretty easily, especially when we share the same nerdy interests like programming or gaming.	positive
+It’s hard for me to make new friends, I always overthink what to say and end up quiet.	negative
+I usually need time to trust people, but once I do, I’m loyal like Linux to open source.	neutral
+I love summer weather, beach days, and evening bike rides by the sea in Gdańsk.	positive
+Summer is fine but too hot sometimes, I can’t focus when temperature hits 30°C in dorm room.	negative
+I like summer evenings, less people outside, nice light, good time for walks or photography.	neutral
+I always help others with projects if they really want to learn, even if it takes extra time.	positive
+I don’t mind helping classmates, but not when I’m already drowning in my own deadlines.	neutral
+If someone doesn’t even try, I won’t waste my time explaining same thing again and again.	negative
+If I don’t feel like drinking, I’ll just grab Pepsi and still hang with everyone anyway.	neutral
+Even if I don’t wanna drink, I might join for one beer just for the social vibe.	positive
+I never drink when I don’t want to, no point pretending to fit in for others.	negative
+Deadline in one week means I still have at least three days of procrastination before panic starts.	neutral
+I start worrying about deadlines only when it’s 24 hours left and caffeine becomes my best friend.	negative
+One week before deadline feels fine, enough time to plan everything and finish without stress.	positive
+Winning a trip to tropical country sounds awesome, I’d pack my camera and go immediately.	positive
+Hot weather isn’t my thing, I’d rather go to Norway than tropical beach full of sunburned tourists.	negative
+Tropical countries look beautiful but honestly I’d just sit under shade and drink coconut water.	neutral
+I like watersports, especially kayaking, feels relaxing and fun after long studying week.	positive
+Watersports are fine, but I’m lazy and don’t like waking up early for such activities.	neutral
+Nope, I don’t do watersports, I can barely swim and prefer staying dry on land.	negative
+Eating healthy helps me stay focused during long coding sessions, less sugar crashes = more productivity.	positive
+I try to eat healthy but it’s hard when fast food is literally next to the dorm.	negative
+I’m improving my diet slowly, cooking more at home and avoiding late-night kebab runs.	neutral
+Bio food feels overpriced, like paying extra for the same tomato with different label.	negative
+If bio food helps environment, I’d pay extra, feels like small step toward sustainability.	positive
+I buy eco food sometimes when it’s on sale and my budget somehow survives the week.	neutral
+I can eat anything except seafood, idk why but it just doesn’t work for me.	negative
+Not picky at all, food is food, as long as it’s warm and not raw inside.	positive
+Some food I can’t stand, like soggy pasta or cold fries, just no.	negative
+Two days home with laptop and snacks sounds like peaceful heaven honestly.	positive
+I’d get restless if I stay home for two days, need walk outside or lose my mind.	negative
+If I have stable internet, I can stay home forever lol.	neutral
+Cruise sounds cool, sunsets, sea breeze, and no emails for two weeks, I’m in.	positive
+Boats are fine, but small ones scare me a bit, especially in open sea.	neutral
+Two weeks on boat? No thanks, sounds like nausea and zero privacy.	negative
+Never wore wig but I saw some that look really cool in anime cons.	positive
+I’d only wear wig for cosplay, maybe as a joke with friends.	neutral
+Wigs look funny but also kinda creepy sometimes ngl.	negative
+Reading all day feels peaceful, I’d love to do that more often.	positive
+I’d rather do something active than sit and read for hours.	negative
+Books are fine but I lose focus fast, depends on topic.	neutral
+I like challenges, they make life less boring and give sense of progress.	positive
+Too many challenges stress me out, I just need chill sometimes.	negative
+Depends on type of challenge, some are worth it, some not.	neutral
+I’m usually the one hyping up everyone at parties, good vibes only.	positive
+I like parties but not when it gets too chaotic or loud.	neutral
+I don’t like parties, too many people and small talk is painful.	negative
+Making friends easy when you study same thing and share memes.	positive
+Hard making friends outside of uni, people have diff interests.	negative
+I make friends slow, need trust and chill atmosphere first.	neutral
+Summer gives me energy and motivation to do more stuff outdoors.	positive
+Summer heat kills my focus completely, I just melt at my desk.	negative
+Summer is fine, I like the light and vibe, not the sweating.	neutral
+I love helping classmates with coding problems, makes me feel useful and smart.	positive
+I help people when I can, but sometimes I just have no time for that.	neutral
+I hate helping when someone doesn’t even read the task properly.	negative
+If I don’t feel like drinking, I’ll still hang, no peer pressure needed.	neutral
+Sometimes I drink one beer just to be social, nothing crazy.	positive
+If I don’t want to drink, I won’t, simple as that.	negative
+Deadlines are fine as long as I start early, which rarely happens.	neutral
+Deadline close means sleepless nights and Red Bull diet incoming.	negative
+I usually manage deadlines fine, just need one solid push.	positive
+Trip to hot country sounds nice, beach + ocean = pure relax.	positive
+Too hot countries make me dizzy, I prefer cooler places.	negative
+Tropical countries are cool for vacation photos, not living though.	neutral
+Watersports give me adrenaline rush, love that feeling of speed on water.	positive
+I like watching watersports but doing them myself? maybe once.	neutral
+Watersports not for me, I’d drown in 5 minutes probably.	negative
+Healthy eating keeps my brain working better during exam weeks.	positive
+Healthy diet? not with uni cafeteria prices lol.	negative
+I try to balance food, not always successful but still trying.	neutral
+Bio food nice idea but too expensive for students.	negative
+If bio food really eco-friendly, I’d support it more.	positive
+Sometimes I buy bio milk just cuz it tastes better.	neutral
+I can eat anything that’s not moving anymore.	positive
+Hate cold soups, just wrong combination for me.	negative
+Not picky, but don’t mix sweet with meat please.	neutral
+Two days home = peace, movies, coding, perfect combo.	positive
+I’d go mad locked at home for two days straight.	negative
+Fine as long as there’s WiFi and snacks.	neutral
+Cruise trip sounds dreamy, I’d love that break.	positive
+Small boats scare me, too cramped and shaky.	negative
+Depends if it’s sea or lake cruise.	neutral
+Never tried wig, maybe someday for costume event.	neutral
+I think wigs can look awesome on some ppl.	positive
+I’d never wear wig in public, feels too odd.	negative
+Reading full day with music is top tier relax.	positive
+Reading all day bores me after few chapters.	negative
+Depends on how interesting book is, I guess.	neutral
+Challenges keep life interesting and brain active.	positive
+Too many challenges = instant burnout.	negative
+Depends on mood, sometimes I go for it.	neutral
+I love loud parties, best way to clear mind.	positive
+I like small parties with close friends, more chill.	neutral
+I hate parties, too loud, too much small talk.	negative
