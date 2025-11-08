@@ -1,5 +1,11 @@
 import streamlit as st
 import os
+from transformers import pipeline, AutoTokenizer, AutoModelForSequenceClassification
+
+pipe = pipeline("text-classification", model="kaczquszka/fine-tuned-on-1000-answers-distilbert-base-uncased", top_k = 3, batch_size=10)
+
+tokenizer = AutoTokenizer.from_pretrained("kaczquszka/fine-tuned-on-1000-answers-distilbert-base-uncased")
+model = AutoModelForSequenceClassification.from_pretrained("kaczquszka/fine-tuned-on-1000-answers-distilbert-base-uncased")
 
 if 'step' not in st.session_state:
     st.session_state.step = 1
@@ -44,8 +50,17 @@ if st.session_state.step == 1:
                 st.balloons() 
                 go_to_step2()
 
-if st.session_state.step == 2:           
-    st.write(st.session_state.info) 
+# def getAnswers():
+#     return [item for item in st.session_state.info.values()]
+
+def getPrediction():
+    result = pipe([item for item in st.session_state.info.values()])
+    res_dict = [{item['label']: item['score'] for item in item_list} for item_list in result]
+    return res_dict
+
+if st.session_state.step == 2:  
+
+    st.write(getPrediction()) 
     st.button('rerun', on_click=rerun_quiz)
 
      
