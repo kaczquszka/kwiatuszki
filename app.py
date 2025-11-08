@@ -1,5 +1,7 @@
 import streamlit as st
-import os
+# import os
+# import torch
+import wikipediaapi
 from transformers import pipeline, AutoTokenizer, AutoModelForSequenceClassification
 import pandas as pd
 pipe = pipeline("text-classification", model="kaczquszka/fine-tuned-on-1000-answers-distilbert-base-uncased", top_k = 3, batch_size=10)
@@ -17,12 +19,6 @@ if 'info' not in st.session_state:
     'Watering':None,
     'Fertilizer':None
 }
-
-
-# form_answers ={
-#     'Growth':None,
-#     'Soil':None,
-# }
 
 Questions ={
     'Growth':'growth question',
@@ -90,6 +86,12 @@ if st.session_state.step == 2:
     plant = getPrediction()
     df = pd.read_csv('datasets/plants_unique.csv', encoding = "latin1")
     st.write(df[df['Plant Name']==plant].iloc[:,:6]) 
+    wiki = wikipediaapi.Wikipedia('plant-character-classification 1.0', language='en', extract_format=wikipediaapi.ExtractFormat.HTML)
+    page = wiki.page(plant)
+    if(page.exists()):
+        st.subheader(f'Learn more about {plant}!')
+        st.html(page.summary)
+        st.write('Source: ', page.fullurl)
     st.button('rerun', on_click=rerun_quiz)
 
      
