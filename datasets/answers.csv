@@ -29,7 +29,464 @@ idc neutral
 i am not sure about that    neutral
 wouldnt know    neutral
 idc neutral
+I felt proud after finishing the project.	positive
+My team supports each other really well.	positive
+I’m happy with how I’ve grown here.	positive
+The feedback I receive motivates me.	positive
+I enjoy collaborating with my colleagues.	positive
+I feel appreciated for my efforts.	positive
+Most days I look forward to work.	positive
+It’s a healthy and encouraging atmosphere.	positive
+I’ve learned a lot from recent challenges.	positive
+I try to focus on improvement every day.	positive
+It’s mostly fine, though sometimes stressful.	neutral
+Things are okay, not great but not bad.	neutral
+I feel indifferent about most things at work.	neutral
+It depends on the day.	neutral
+I guess it’s fine overall.	neutral
+I’m not sure how I feel about it.	neutral
+I don’t really think much about it.	neutral
+It’s manageable most of the time.	neutral
+I don’t know.	neutral
+I am not sure.	neutral
+The pressure sometimes gets overwhelming.	negative
+I feel anxious before meetings.	negative
+The environment can be toxic at times.	negative
+I don’t feel valued or recognized.	negative
+It’s hard to stay motivated lately.	negative
+I get frustrated easily at work.	negative
+It feels draining and repetitive.	negative
+I often feel excluded from decisions.	negative
+The stress affects my personal life.	negative
+I feel stuck and unappreciated.	negative
+I stay calm and try another way.	positive
+Usually I get upset but recover fast.	neutral
+It ruins my mood when things go wrong.	negative
+I don’t care much about that.	neutral
+Wouldn’t know really.	neutral
+I try to keep a positive mindset.	positive
+It’s hard, but I push through.	positive
+Sometimes I just go with the flow.	neutral
+I’ve gained confidence through my work.	positive
+Deadlines make the team tense.	neutral
+I take failures as lessons.	positive
+I lose focus when things get chaotic.	negative
+It’s the same routine every day.	negative
+I prefer working alone to avoid tension.	neutral
+The energy in the office lifts me up.	positive
+It’s not terrible, just exhausting.	neutral
+I feel burned out and tired.	negative
+I get inspired by my coworkers’ ideas.	positive
+I’m uncertain about my role here.	neutral
+I’m learning to stay calm under pressure.	positive
+I feel proud of my recent accomplishments	positive
+My team communicates well	positive
+I enjoy brainstorming with colleagues	positive
+I feel motivated by feedback	positive
+Work gives me a sense of purpose	positive
+I like helping others succeed	positive
+The environment encourages growth	positive
+I feel appreciated for my contributions	positive
+I am learning new skills every day	positive
+I try to stay positive when challenges arise	positive
+Things are usually okay	neutral
+I am not sure how I feel	neutral
+It is fine most of the time	neutral
+I guess it is acceptable	neutral
+It depends on the situation	neutral
+I do not know	neutral
+I do not care much	neutral
+I feel neutral about that	neutral
+I am undecided	neutral
+Sometimes it is hard to tell	neutral
+I get frustrated easily	negative
+Work stress affects me	negative
+The environment feels tense	negative
+I feel undervalued	negative
+I get discouraged often	negative
+It is exhausting to stay motivated	negative
+I feel ignored by management	negative
+Deadlines make me anxious	negative
+The office feels cold	negative
+It drains my energy	negative
+I try to stay calm and adapt	positive
+Usually I get irritated but recover	neutral
+It ruins my mood at times	negative
+I do not know much about that	neutral
+I am not sure about it	neutral
+I focus on improvement	positive
+I push through challenges	positive
+I go with the flow sometimes	neutral
+I am gaining confidence at work	positive
+Team tensions arise during deadlines	neutral
+I learn from mistakes	positive
+I lose motivation quickly	negative
+The routine feels repetitive	negative
+I prefer avoiding conflict	neutral
+The office inspires me	positive
+Work is exhausting but manageable	neutral
+I feel drained at the end of the day	negative
+I get inspired by colleagues	positive
+I am uncertain about my role	neutral
+I stay calm under pressure	positive
 i dont care neutral
+I try to stay optimistic	positive
+I look for the good in every situation	positive
+I take initiative when I can	positive
+I stay calm under pressure	positive
+I focus on solutions not problems	positive
+I try to motivate others	positive
+I approach challenges with curiosity	positive
+I enjoy taking responsibility	positive
+I adapt quickly to change	positive
+I stay confident in my abilities	positive
+I like to help when needed	positive
+I keep a positive mindset	positive
+I try to learn from mistakes	positive
+I stay patient with difficulties	positive
+I encourage teamwork	positive
+I stay flexible when plans change	positive
+I look for ways to improve	positive
+I try to be proactive	positive
+I celebrate small wins	positive
+I stay engaged in projects	positive
+I usually go with the flow	neutral
+I tend to wait and see	neutral
+I feel unsure sometimes	neutral
+I stay quiet unless asked	neutral
+I am cautious with my actions	neutral
+I try to avoid conflicts	neutral
+I go along with others’ ideas	neutral
+I sometimes feel indifferent	neutral
+I am neutral about most things	neutral
+I adapt slowly to changes	neutral
+I get frustrated but recover quickly	neutral
+I am uncertain about my approach	neutral
+I am careful with my words	neutral
+I take time to think before acting	neutral
+I tend to observe first	neutral
+I follow instructions closely	neutral
+I am not sure how I feel	neutral
+I don’t have a strong opinion	neutral
+I am undecided about some things	neutral
+I feel hesitant sometimes	neutral
+I get annoyed quickly	negative
+I feel stressed under pressure	negative
+I often doubt myself	negative
+I lose motivation easily	negative
+I get discouraged when things go wrong	negative
+I find it hard to adapt	negative
+I feel impatient with slow progress	negative
+I am easily frustrated	negative
+I struggle to stay positive	negative
+I often feel overwhelmed	negative
+I am critical of myself	negative
+I feel tense around deadlines	negative
+I feel unappreciated	negative
+I get irritated at small issues	negative
+I find it hard to concentrate	negative
+I feel anxious about tasks	negative
+I tend to complain about work	negative
+I get demotivated quickly	negative
+I feel drained by interactions	negative
+I struggle to stay confident	negative
+I take criticism personally	negative
+I avoid taking risks	negative
+I worry about making mistakes	negative
+I feel pressure easily	negative
+I am skeptical of new ideas	negative
+I doubt my decisions	negative
+I often feel impatient	negative
+I feel stressed in meetings	negative
+I get upset when things go wrong	negative
+I feel tense most of the time	negative
+I react negatively to challenges	negative
+I struggle with collaboration	negative
+I am cautious about sharing ideas	neutral
+I sometimes feel disconnected	neutral
+I try to keep my mood steady	positive
+I look for opportunities to grow	positive
+I stay motivated by progress	positive
+I take pride in my work	positive
+I encourage others to succeed	positive
+I maintain a positive outlook	positive
+I try to see the bigger picture	positive
+I keep trying even when it’s hard	positive
+I am hopeful about outcomes	positive
+I take challenges as learning	positive
+I stay composed under stress	positive
+I focus on what I can control	positive
+I try to influence situations positively	positive
+I adapt my approach when needed	positive
+I remain patient with setbacks	positive
+I stay enthusiastic about projects	positive
+I take initiative without being asked	positive
+I avoid negative thinking	positive
+I try not to get discouraged	positive
+I focus on solutions rather than complaints	positive
+I acknowledge my feelings without dwelling	neutral
+I sometimes need guidance	neutral
+I tend to watch before acting	neutral
+I feel uncertain about new tasks	neutral
+I respond calmly most of the time	neutral
+I sometimes follow others’ lead	neutral
+I am hesitant to speak up	neutral
+I wait before making decisions	neutral
+I prefer a cautious approach	neutral
+I remain reserved in new situations	neutral
+I am aware of my reactions	neutral
+Yes	positive
+No	negative
+Sometimes	neutral
+Not really	negative
+Absolutely	positive
+Sure	positive
+I enjoy	positive
+I dislike	negative
+Occasionally	neutral
+Definitely	positive
+Not at all	negative
+Sometimes yes	neutral
+Always	positive
+Rarely	neutral
+I love it	positive
+Not my thing	negative
+Maybe	neutral
+Yes sometimes	positive
+Never	negative
+Of course	positive
+I hate it	negative
+I like it	positive
+Not often	neutral
+I’m unsure	neutral
+I prefer not	negative
+Absolutely yes	positive
+Not much	negative
+I enjoy it	positive
+No thanks	negative
+Sure sometimes	neutral
+I like that	positive
+Hardly ever	negative
+Yes I do	positive
+No I don’t	negative
+Sometimes no	neutral
+I’m indifferent	neutral
+Yes always	positive
+Not really sure	neutral
+Yes mostly	positive
+No way	negative
+Yeah	positive
+Nah	negative
+Sometimes yes	neutral
+Not much	negative
+Totally	positive
+I guess	neutral
+I enjoy it	positive
+Nope	negative
+yeah, i usually bring good vibes to parties positive
+not really, i’m more of an observer neutral
+i love being around people, it gives me energy positive
+i prefer small groups instead of big parties neutral
+i’m a bit shy at first, but then i open up positive
+making new friends can be stressful for me negative
+i find it quite easy to connect with others positive
+i usually wait for people to approach me first neutral
+yes, i think people enjoy my company positive
+not really, i prefer quiet evenings neutral
+i enjoy the sun and warm weather positive
+too hot sometimes, i prefer spring neutral
+summer’s great for ice cream and freedom positive
+i don’t enjoy sweating all day negative
+i love the beach and swimming positive
+i sometimes feel lonely in summer negative
+sunny days make me happy positive
+summer is boring without friends negative
+i like summer nights with friends positive
+rainy summer days are depressing negative
+yes, i would help even if it takes time positive
+i think helping others is important positive
+sometimes i don’t have patience to help negative
+i would try to guide them if i can positive
+it depends how busy i am neutral
+yes, because teamwork matters positive
+no, i need my own time negative
+i would explain slowly so they understand positive
+sometimes i get frustrated but still help neutral
+i prefer not to waste my time negative
+i would drink to fit in neutral
+no, i would stick to my choice positive
+i might have one beer but not more neutral
+yes, i enjoy being with friends positive
+no, i feel better not drinking positive
+sometimes i follow others just to socialize neutral
+i would join if it’s a special occasion positive
+i feel stressed if i haven’t started a task negative
+i stay calm and make a plan positive
+i panic a bit but then start working neutral
+i procrastinate until the last minute negative
+i feel motivated when deadline is near positive
+i try to break task into small steps positive
+i get anxious thinking about unfinished work negative
+i make a schedule to manage time positive
+i sometimes ignore it and hope for the best negative
+i focus on one part at a time positive
+yes, i am usually the life of a party positive
+sometimes, depends on mood neutral
+i prefer observing rather than leading neutral
+i enjoy making people laugh positive
+i don’t like big noisy parties negative
+i am shy but open up slowly positive
+i get nervous meeting new people negative
+i make friends easily in school positive
+sometimes i feel awkward introducing myself negative
+i like talking to classmates positive
+i struggle with small talk negative
+summer is my favorite season positive
+i get tired in hot weather negative
+i love sunny days positive
+summer is okay but too hot neutral
+i enjoy swimming in summer positive
+i prefer spring or autumn neutral
+i like summer holidays positive
+hot days make me lazy negative
+sunsets in summer are beautiful positive
+i enjoy long summer evenings positive
+i would definitely help someone eager to learn positive
+i hesitate if it takes too much time neutral
+i try to help when i can positive
+sometimes i say no if i’m busy neutral
+helping others feels rewarding positive
+i avoid helping if it’s too complicated negative
+yes, teamwork is important positive
+i think effort is more important than knowledge positive
+sometimes i get frustrated with mistakes neutral
+i explain things step by step positive
+i stay patient even if it’s slow positive
+i might not drink if i’m tired positive
+i would join friends even if i don’t want to drink neutral
+i sometimes drink just to fit in neutral
+i enjoy socializing without alcohol positive
+i feel fine saying no positive
+i drink occasionally with friends positive
+i would politely refuse if i’m not in the mood positive
+i get nervous if i haven’t started task negative
+i feel stressed but focused positive
+i panic a little and then plan neutral
+i procrastinate but finish in time neutral
+i stay organized to avoid last-minute stress positive
+i feel guilty if i wait too long negative
+i make lists to track progress positive
+i try to stay calm under pressure positive
+i feel lazy at first but then start neutral
+i break big tasks into smaller parts positive
+i like finishing work early positive
+meeting new people is fun positive
+i prefer quiet friends neutral
+i enjoy group activities positive
+i sometimes feel shy neutral
+i like making others laugh positive
+i avoid loud parties negative
+summer is relaxing positive
+i dislike extreme heat negative
+i enjoy cold drinks in summer positive
+i sometimes feel bored during holidays negative
+helping friends is important positive
+i avoid helping if it’s too much negative
+i try to motivate others positive
+i sometimes lose patience neutral
+i value teamwork positive
+Every now	neutral
+Love it	positive
+Dislike it	negative
+Sure do	positive
+Not really	negative
+Maybe yes	neutral
+Yes please	positive
+Not at all	negative
+I like it	positive
+Occasionally	neutral
+Definitely yes	positive
+Rarely	neutral
+I prefer it	positive
+Never mind	negative
+Yes I like	positive
+No I dislike	negative
+Sometimes no	neutral
+Absolutely yes	positive
+No way	negative
+I’m okay	neutral
+Yes always	positive
+Not much fun	negative
+I enjoy	positive
+Not really sure	neutral
+Yes sometimes	positive
+No thanks	negative
+I’m indifferent	neutral
+Yes definitely	positive
+Hardly ever	negative
+Love that	positive
+Not often	neutral
+Sure sometimes	neutral
+I like that	positive
+Nope not	negative
+Sometimes yes	neutral
+I do	positive
+I don’t	negative
+Yes I like	positive
+No I no	negative
+Sometimes yes	neutral
+I not sure	neutral
+Very like	positive
+I not like	negative
+Yes I enjoy	positive
+No I hate	negative
+Maybe yes	neutral
+I like very much	positive
+Not really	negative
+Yes sure	positive
+I no like	negative
+I like little	neutral
+Yes I do	positive
+No I do not	negative
+I like it much	positive
+I no enjoy	negative
+Yes I love	positive
+I sometime like	neutral
+Yes maybe	positive
+No maybe not	negative
+I like little bit	neutral
+Yes I want	positive
+No I no want	negative
+I like yes	positive
+I not like it	negative
+Sometimes I yes	neutral
+Yes very much	positive
+No not like	negative
+I enjoy yes	positive
+I do not like	negative
+Maybe I yes	neutral
+Yes I can	positive
+No I can’t	negative
+I like some	neutral
+Yes I happy	positive
+No I sad	negative
+Sometimes I try	neutral
+I like always	positive
+No I never	negative
+Yes I try	positive
+I not try	negative
+I like little yes	neutral
+Yes I sometimes	positive
+No I sometimes	negative
+I enjoy little	positive
+I no enjoy little	negative
+I maybe yes	neutral
+Yes I feel good	positive
+No I feel bad	negative
+Every time	positive
+Rarely ever	neutral
+Yes mostly	positive
+No I don’t	negative
 I take it as a learning opportunity most of the time.	positive
 I get discouraged and lose motivation fast.	negative
 Positive feedback from others always lifts my spirit.	positive
@@ -945,6 +1402,112 @@ Trip tropic = wow. positive
 Too warm for me. negative
 Maybe later trip. neutral
 Watersport rocks. positive
+yeah, i usualy bring good vibes to parties positive
+not realy, i’m more of an observer neutral
+i love being around peple, it gives me energy positive
+i prefer smal groups instead of big parties neutral
+i’m a bit shy at frst, but then i open up positive
+making new friends can be stresful for me negative
+i find it quite easy to conect with others positive
+i usually wait for people to aproach me first neutral
+yes, i think peple enjoy my company positive
+not really, i prefer qiet evenings neutral
+i enjoy the sun and warm weater positive
+to hot sometimes, i prefer spring neutral
+summers great for ice cream and freedom positive
+i dont enjoy sweating all day negative
+i love the bech and swimming positive
+i sometimes feel lonely in sumr negative
+suny days make me happy positive
+summer is boring withut friends negative
+i like summer nights with frends positive
+no, i need my own time negative
+i would explain slowly so they undrstand positive
+sometimes i get frustrted but still help neutral
+i prefer not to wast my time negative
+i would drink to fit in sometimes neutral
+no, i would stik to my choice positive
+i might have one beer but not mor neutral
+yes, i enjoy being with frends positive
+no, i feel better not drinking positive
+sometimes i follow others just to socilize neutral
+i would join if its a special occasion positive
+i feel stresed if i havent started a task negative
+i stay calm and make a pln positive
+i panic a bit but then start working neutral
+i procrastinate untill the last minute negative
+i feel motivted when deadline is near positive
+i try to break task into small stepps positive
+i get anxious thinking about unfnished work negative
+i make a scheduel to manage time positive
+i sometimes ignor it and hope for the best negative
+i focus on one part at a time positive
+yes, i am usually the life of party positive
+sometimes, depends on mood neutral
+i prefer observing rather than leading neutral
+i enjoy making peple laugh positive
+i dont like big noisy parties negative
+i am shy but open up slo positive
+i get nervus meeting new people negative
+i make frends easily in school positive
+sometimes i feel awkard introducing myself negative
+i like talking to classmats positive
+i struggle with small tok negative
+summer is my favrite season positive
+i get tired in hot weater negative
+i love sunny days positive
+summer is ok but too hot neutral
+i enjoy swimming in sumr positive
+i prefer sprng or autumn neutral
+i like summer holydays positive
+hot days make me lzy negative
+sunsets in summer are beutiful positive
+i enjoy long summer evnings positive
+i would definetly help someone eager to learn positive
+i hesitate if it takes too much time neutral
+i try to help when i can positive
+sometimes i say no if i’m bsy neutral
+helping others feels rewording positive
+i avoid helping if its too complicted negative
+yes, teamwork is importnt positive
+i think effort is more importnt than knowledge positive
+sometimes i get frustated with mistakes neutral
+i explain things step by step positive
+i stay patient even if its slo positive
+i might not drink if i’m tired positive
+i would join frends even if i dont want to drink neutral
+i sometimes drink just to fit in neutral
+i enjoy socializing without alchol positive
+i feel fine saying no positive
+i drink occasinally with friends positive
+i would politely refuse if i’m not in mood positive
+i get nervus if i havent started task negative
+i feel stresed but focused positive
+i panic a little and then pln neutral
+i procrastinate but finish in tim neutral
+i stay organized to avoid last-minut stress positive
+i feel guilty if i wait too long negative
+i make lists to track progess positive
+i try to stay calm under presure positive
+i feel lazy at first but then start neutral
+i break big tasks into smal parts positive
+i like finishing work erly positive
+meeting new peple is fun positive
+i prefer quiet frends neutral
+i enjoy group activites positive
+i sometimes feel shy neutral
+i like making others laugh positive
+i avoid loud parties negative
+summer is relaxing positive
+i dislike extrme heat negative
+i enjoy cold drinks in summer positive
+i sometimes feel bored during holydays negative
+helping frends is important positive
+i avoid helping if its too mch negative
+i try to motivate others positive
+i sometimes lose patince neutral
+i value teamwork positive
+rainy summer days are depresing negative
 Scary waves no. negative
 Maybe try once idk. neutral
 I try to eat healthy but when project deadlines come closer, I just order pizza and forget about vegetables. negative
