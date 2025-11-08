@@ -1,7 +1,7 @@
 import streamlit as st
 import os
 from transformers import pipeline, AutoTokenizer, AutoModelForSequenceClassification
-
+import pandas as pd
 pipe = pipeline("text-classification", model="kaczquszka/fine-tuned-on-1000-answers-distilbert-base-uncased", top_k = 3, batch_size=10)
 
 tokenizer = AutoTokenizer.from_pretrained("kaczquszka/fine-tuned-on-1000-answers-distilbert-base-uncased")
@@ -13,6 +13,9 @@ if 'info' not in st.session_state:
     st.session_state.info = {
     'Growth':None,
     'Soil':None,
+    'Sunlight':None,
+    'Watering':None,
+    'Fertilizer':None
 }
 
 
@@ -24,6 +27,9 @@ if 'info' not in st.session_state:
 Questions ={
     'Growth':'growth question',
     'Soil':'soil question',
+    'Sunlight':'sunlight q',
+    'Watering':'watering q',
+    'Fertilizer':'fertilizer q'
 }
 
 def go_to_step2():
@@ -53,14 +59,37 @@ if st.session_state.step == 1:
 # def getAnswers():
 #     return [item for item in st.session_state.info.values()]
 
+def calculate_result(res_dict):
+  copy = res_dict.copy() #zeby nie nadpisywac
+  multiplier = {
+      'neutral': 0,
+      'negative': -1,
+      'positive': 1
+  }
+  sentiment_value =[]
+  for results in copy:
+    for key in results:
+      results[key] = results[key] * multiplier[key]
+    sentiment_value.append(sum(results.values()))
+
+  return sentiment_value
+
 def getPrediction():
     result = pipe([item for item in st.session_state.info.values()])
     res_dict = [{item['label']: item['score'] for item in item_list} for item_list in result]
-    return res_dict
+    results = calculate_result(res_dict)
+    return(classifier.predict([results])[0])
+    
+
+import pickle
+
+with open('content/knn_classifier.svn', 'rb') as f:
+  classifier = pickle.load(f)
 
 if st.session_state.step == 2:  
-
-    st.write(getPrediction()) 
+    plant = getPrediction()
+    df = pd.read_csv('datasets/plants_unique.csv', encoding = "latin1")
+    st.write(df[df['Plant Name']==plant].iloc[:,:6]) 
     st.button('rerun', on_click=rerun_quiz)
 
      
