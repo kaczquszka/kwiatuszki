@@ -87,7 +87,8 @@ if st.session_state.step == 2:
     df = pd.read_csv('datasets/plants_unique.csv', encoding = "latin1")
     st.write(df[df['Plant Name']==plant].iloc[:,:6]) 
     wiki = wikipediaapi.Wikipedia('plant-character-classification 1.0', language='en', extract_format=wikipediaapi.ExtractFormat.HTML)
-    page = wiki.page(plant)
+    page = wiki.page(title=plant)
+    print(page.fullurl)
     if(page.exists()):
         st.subheader(f'Learn more about {plant}!')
         st.html(page.summary)
