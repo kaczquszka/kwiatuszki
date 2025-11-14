@@ -9,7 +9,14 @@ import pickle
 import time
 
 
-
+if 'sentiment' not in st.session_state:
+    st.session_state.sentiment = {
+    'Growth':None,
+    'Soil':None,
+    'Sunlight':None,
+    'Watering':None,
+    'Fertilizer':None
+}
 
 if 'page' not in st.session_state:
     st.session_state.page = None
@@ -52,11 +59,17 @@ def calculate_result(res_dict):
       'positive': 1
   }
   sentiment_value =[]
+  key_sentiment_dict = list(st.session_state.sentiment.keys())
+  x = 0
   for results in copy:
     for key in results:
       results[key] = results[key] * multiplier[key]
     sentiment_value.append(sum(results.values()))
+    st.session_state.sentiment[key_sentiment_dict[x]] = sum(results.values())
+    x = x+1
 
+
+  
   return sentiment_value
 
 def getPrediction():
@@ -112,6 +125,8 @@ elif st.session_state.step == 3:
     if(st.session_state.page.exists()):
         df = pd.read_csv('datasets/plants_unique.csv', encoding = "latin1")
         st.write(df[df['Plant Name']==st.session_state.plant].iloc[:,:6]) 
+        st.markdown(st.session_state.sentiment)
+        st.markdown(st.session_state.info)
         st.subheader(f'Learn more about {st.session_state.plant}!')
         st.html(html_text)
         st.write('Source: ', source_text)

@@ -9,68 +9,68 @@ df = df.drop_duplicates(subset=df.columns[0], keep='first')
 #fix spelling mistake in watering column
 #TO DO:
 #wszystko do malych liter i potem capital pierwsze?
-df['Watering'][df["Watering"]=="Regular watering"]="Regular Watering"
+df.loc[df["Watering"] == "Regular watering", "Watering"] = "Regular Watering"
 
 #drop duplicates of the same values in every column (to avoid having plants with identical attributes)
 df = df.drop_duplicates(subset=df.columns[1:], keep='first')
 
 df_numerical = pd.DataFrame()
 
-#from loves water to doesnt
-watering = [
-    "Keep soil consistently moist",
-    "Keep soil evenly moist",
-    "Keep soil moist",
-    "Keep soil slightly moist",
-    "Regular, moist soil",
-    "Regular Watering",
-    "Regular, well-drained soil",
-    "Water weekly",
-    "Water when soil feels dry",
-    "Water when topsoil is dry",
-    "Water when soil is dry",
-    "Let soil dry between watering"
-]
+trait_dict ={
+    #from fast learing to slow
+    'growth':[
+        "fast",
+        "moderate",
+        "slow"
+    ],
+    #from universal - extravert to indiviudal small friend group
+    'soil':[
+        "loamy",
+        "moist",
+        "well-drained",
+        "sandy",
+        "acidic"
+    ],
+    #from loves sun to hate it
+    'sun':[
+        'full sunlight',
+        'partial sunlight',
+        'indirect sunlight'
+    ],
+    #from loves water to doesnt
+    'watering':[
+        "Keep soil consistently moist",
+        "Keep soil evenly moist",
+        "Keep soil moist",
+        "Keep soil slightly moist",
+        "Regular, moist soil",
+        "Regular Watering",
+        "Regular, well-drained soil",
+        "Water weekly",
+        "Water when soil feels dry",
+        "Water when topsoil is dry",
+        "Water when soil is dry",
+        "Let soil dry between watering"
+    ],
+    #from good diet to bad
+    'fertilization':[
+        "Balanced",
+        "Organic",
+        "No",
+        "Low-nitrogen",
+        "Acidic"
+    ]
+}
 
-#from good diet to bad
-fertilization =[
-    "Balanced",
-    "Organic",
-    "No",
-    "Low-nitrogen",
-    "Acidic"
-]
+column_names = df.columns[1:]
 
-#from fast learing to slow
-growth=[
-    "fast",
-    "moderate",
-    "slow"
-]
+mapping = dict(zip(column_names, trait_dict.keys()))
+df_numerical['Plant Name'] = df['Plant Name']
+for column_name, trait_list in zip(column_names, trait_dict.keys()):
+    trait = trait_dict[trait_list]
+    level = np.round(np.linspace(1,-1,len(trait)), 5) #numerical value assosiated with the trait
+    num_map = dict(zip(trait, level))
+    df_numerical[column_name] = df[column_name].map(num_map)
 
-#from universal - extravert to indiviudal small friend group
-soil = [
-    "loamy",
-    "moist",
-    "well-drained",
-    "sandy",
-    "acidic"
-]
 
-#loves sun to hate it
-dict ={
-'sun' :['full sunlight',
-    'partial sunlight',
-     'indirect sunlight'
-]}
-
-for column_name in df.columns[1:]:
-    print(column_name)
-
-level = np.linspace(1,-1,len(moisture_levels))
-mapping = dict(zip(moisture_levels,level))
-mapping
-
-df_numerical['Watering']=df["Watering"].map(mapping)
-
-df.to_csv('datasets/cleaned_plants.csv', index=False)
+df_numerical.to_csv('datasets/numerical_plants.csv', index=False)
