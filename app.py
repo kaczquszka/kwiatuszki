@@ -15,7 +15,7 @@ if 'sentiment' not in st.session_state:
     'Soil':None,
     'Sunlight':None,
     'Watering':None,
-    'Fertilizer':None
+    'Fertilization Type':None
 }
 
 if 'page' not in st.session_state:
@@ -28,7 +28,7 @@ if 'info' not in st.session_state:
     'Soil':None,
     'Sunlight':None,
     'Watering':None,
-    'Fertilizer':None
+    'Fertilization Type':None
 }
     
 if 'plant' not in st.session_state:
@@ -39,7 +39,7 @@ Questions ={
     'Soil':'soil question',
     'Sunlight':'sunlight q',
     'Watering':'watering q',
-    'Fertilizer':'fertilizer q'
+    'Fertilization Type':'fertilizer q'
 }
 
 def go_to_step2():
@@ -87,6 +87,26 @@ def findPage():
     wiki = wikipediaapi.Wikipedia('plant-character-classification 1.0', language='en', extract_format=wikipediaapi.ExtractFormat.HTML)
     return wiki.page(page_name[0])
 
+
+def printResults():
+    st.markdown(f"# Your inner plant is :rainbow[{st.session_state.plant}]!")
+    st.divider()
+    st.markdown("#### :violet[Why such result? :thinking:]")
+    st.markdown("The questions you answered were mapped to specific traits of plants. " \
+    "\n\nYour answers were then anaylized using fine tuned distilBert model on sentiment analysis. " \
+    "\n\nThen, based on results obtained from the model, a simple k nearest neighbours classification was used to assign the most suitable plant to your character")
+    st.divider()
+    st.markdown('#### :violet[Still not satisfied? See for yourself then..]')
+    df = pd.read_csv('datasets/cleaned_plants.csv', encoding = "latin1")
+    # st.write(df[df['Plant Name']==st.session_state.plant].iloc[:,:6]) 
+    results = pd.DataFrame(columns=['Category','Question','Your Answer', 'Sentiment assigned', 'Obtained trait'])
+ 
+    for category in df.columns[1:]:
+        results.loc[len(results)]=[category,f'{Questions[category]}', f'{st.session_state.info[category]}',f'{st.session_state.sentiment[category]:.4f}',f'{df[df['Plant Name']==st.session_state.plant][category].values[0]}']
+    
+    st.dataframe(results, hide_index=True)
+    st.divider()
+
 if st.session_state.step == 1:
     title_placeholder = st.empty()
     form_placeholder = st.empty()
@@ -123,11 +143,8 @@ elif st.session_state.step == 3:
     html_text = st.session_state.page.summary
     source_text = st.session_state.page.fullurl
     if(st.session_state.page.exists()):
-        df = pd.read_csv('datasets/plants_unique.csv', encoding = "latin1")
-        st.write(df[df['Plant Name']==st.session_state.plant].iloc[:,:6]) 
-        st.markdown(st.session_state.sentiment)
-        st.markdown(st.session_state.info)
-        st.subheader(f'Learn more about {st.session_state.plant}!')
+        printResults()
+        st.markdown(f'#### :violet[Learn more about :rainbow[{st.session_state.plant}]!]')
         st.html(html_text)
         st.write('Source: ', source_text)
     st.button('rerun', on_click=rerun_quiz)
