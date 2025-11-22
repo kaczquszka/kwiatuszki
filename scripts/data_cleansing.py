@@ -14,6 +14,7 @@ df.loc[df["Watering"] == "Regular watering", "Watering"] = "Regular Watering"
 #drop duplicates of the same values in every column (to avoid having plants with identical attributes)
 df = df.drop_duplicates(subset=df.columns[1:], keep='first')
 
+df.to_csv('datasets/plants_unique.csv', index=False)
 df_numerical = pd.DataFrame()
 
 trait_dict ={

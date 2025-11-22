@@ -1,17 +1,15 @@
 Plant Name,Growth,Soil,Sunlight,Watering,Fertilization Type
 Aloe Vera,slow,sandy,indirect sunlight,Water weekly,Balanced
 Basil,fast,well-drained,full sunlight,Keep soil evenly moist,Organic
-Snake Plant,slow,well-drained,indirect sunlight,Water when soil is dry,No
 Lavender,moderate,sandy,full sunlight,Let soil dry between watering,No
-Cactus,slow,sandy,full sunlight,Let soil dry between watering,Low-nitrogen
 Rosemary,moderate,well-drained,full sunlight,Let soil dry between watering,No
-Mint,fast,well-drained,partial sunlight,Keep soil consistently moist,Balanced
+Mentha,fast,well-drained,partial sunlight,Keep soil consistently moist,Balanced
 Thyme,moderate,sandy,full sunlight,Let soil dry between watering,Organic
 Peace Lily,moderate,well-drained,indirect sunlight,Water when soil feels dry,Balanced
 Spider Plant,moderate,loamy,indirect sunlight,Keep soil slightly moist,Balanced
 Parsley,moderate,well-drained,partial sunlight,Keep soil consistently moist,Organic
 Fern (Boston),moderate,well-drained,indirect sunlight,Water when topsoil is dry,Organic
-Bamboo Palm,slow,well-drained,indirect sunlight,Water weekly,Balanced
+Bamboo,slow,well-drained,indirect sunlight,Water weekly,Balanced
 Money Plant,moderate,well-drained,indirect sunlight,Water when topsoil is dry,Balanced
 Jade Plant,slow,sandy,indirect sunlight,Water when soil is dry,Low-nitrogen
 Orchids,moderate,well-drained,indirect sunlight,Water weekly,Balanced
@@ -45,11 +43,9 @@ Bluebell,moderate,well-drained,partial sunlight,Keep soil slightly moist,Organic
 Camellia,slow,acidic,partial sunlight,Water weekly,Acidic
 Magnolia,slow,acidic,full sunlight,Water when soil is dry,Acidic
 Gardenia,slow,acidic,indirect sunlight,Water weekly,Acidic
-Azalea,moderate,acidic,partial sunlight,Keep soil moist,Acidic
 Eucalyptus,slow,sandy,full sunlight,Water when soil feels dry,Low-nitrogen
 Lotus,moderate,loamy,full sunlight,Keep soil consistently moist,Balanced
-Orchid Cactus,slow,sandy,indirect sunlight,Water weekly,Low-nitrogen
-Lotus Bamboo,slow,well-drained,indirect sunlight,Water weekly,Organic
+Epiphyllum,slow,sandy,indirect sunlight,Water weekly,Low-nitrogen
 Coneflower,moderate,sandy,full sunlight,Water weekly,Balanced
 Alyssum,fast,sandy,full sunlight,Water weekly,Organic
 Lobelia,fast,well-drained,indirect sunlight,Water weekly,Low-nitrogen
@@ -73,13 +69,12 @@ Calathea,moderate,well-drained,indirect sunlight,Keep soil moist,No
 Croton,slow,well-drained,indirect sunlight,Water weekly,No
 Ficus Tree,slow,well-drained,indirect sunlight,Water weekly,Low-nitrogen
 Haworthia,slow,sandy,indirect sunlight,Water when topsoil is dry,Low-nitrogen
-Swedish Ivy,fast,well-drained,indirect sunlight,Water weekly,Balanced
 Hoya (Wax Plant),slow,sandy,indirect sunlight,Water when topsoil is dry,Balanced
 Begonia (Outdoor),moderate,well-drained,full sunlight,Water weekly,Organic
 Petunia (Trailing),fast,sandy,full sunlight,Regular Watering,Organic
 Clematis,slow,sandy,full sunlight,Regular Watering,Organic
 Ageratum,fast,well-drained,full sunlight,Regular Watering,Organic
-Calla Lily,moderate,sandy,partial sunlight,Keep soil moist,Organic
+Zantedeschia,moderate,sandy,partial sunlight,Keep soil moist,Organic
 Heliotrope,moderate,well-drained,full sunlight,Regular Watering,Organic
 Gazania,fast,sandy,full sunlight,Water when soil is dry,Organic
 Portulaca,fast,sandy,full sunlight,Water when soil is dry,Balanced
@@ -97,10 +92,10 @@ Neem Tree,fast,sandy,full sunlight,Let soil dry between watering,Organic
 Peepal Tree (Bodhi Tree),moderate,loamy,partial sunlight,"Regular, well-drained soil",Organic
 Banyan Tree (Bargad),slow,well-drained,full sunlight,"Regular, well-drained soil",Low-nitrogen
 Sheesham Tree,fast,loamy,full sunlight,Let soil dry between watering,Organic
-Gul Mohar (Flame Tree),moderate,sandy,full sunlight,"Regular, moist soil",Organic
-Date Palm (Khajoor),moderate,sandy,full sunlight,Water when soil is dry,Organic
+Delonix regia,moderate,sandy,full sunlight,"Regular, moist soil",Organic
+Date Palm,moderate,sandy,full sunlight,Water when soil is dry,Organic
 Ber Tree (Indian Jujube),moderate,sandy,full sunlight,Water when soil feels dry,Organic
-Beggonia (Outdoor),moderate,well-drained,full sunlight,"Regular, moist soil",Organic
+Begonia,moderate,well-drained,full sunlight,"Regular, moist soil",Organic
 Chrysanthemum (Outdoor),fast,loamy,full sunlight,"Regular, moist soil",Balanced
 Japanese Maple,slow,acidic,partial sunlight,Keep soil consistently moist,Balanced
 Cucumbers,fast,well-drained,full sunlight,"Regular, moist soil",Organic
@@ -120,7 +115,6 @@ Wisteria,slow,well-drained,full sunlight,"Regular, moist soil",Balanced
 Strawberry,moderate,sandy,full sunlight,"Regular, well-drained soil",Organic
 Raspberry,moderate,acidic,full sunlight,"Regular, well-drained soil",Organic
 Cornflower,moderate,well-drained,full sunlight,"Regular, moist soil",Balanced
-Acorn Squash,moderate,loamy,full sunlight,Regular Watering,Balanced
 Apple Tree,slow,sandy,full sunlight,Water weekly,Balanced
 Balsam,fast,moist,full sunlight,Regular Watering,Organic
 Banana Plant,fast,moist,full sunlight,Water weekly,Balanced
@@ -145,13 +139,11 @@ Acanthus,moderate,loamy,partial sunlight,"Regular, moist soil",Organic
 Alstroemeria,slow,loamy,partial sunlight,Water when topsoil is dry,Balanced
 Aquilegia (Columbine),moderate,loamy,partial sunlight,Let soil dry between watering,Organic
 Arum Lily,moderate,moist,partial sunlight,"Regular, moist soil",Balanced
-Aztec Lily,slow,sandy,partial sunlight,Let soil dry between watering,Organic
 Barberry,moderate,sandy,full sunlight,"Regular, well-drained soil",Balanced
 Cananga (Ylang-Ylang),moderate,loamy,full sunlight,"Regular, well-drained soil",Organic
 Cockscomb (Celosia),moderate,well-drained,full sunlight,Water when topsoil is dry,Organic
 Cress,fast,moist,full sunlight,"Regular, moist soil",Balanced
 Cyclamen,moderate,moist,indirect sunlight,"Regular, moist soil",Balanced
-Devilï¿½s Ivy,moderate,well-drained,indirect sunlight,"Regular, moist soil",Organic
 Ficus Microcarpa,moderate,well-drained,partial sunlight,"Regular, well-drained soil",Organic
 Guava,moderate,well-drained,full sunlight,"Regular, well-drained soil",Balanced
 Ixia,moderate,well-drained,full sunlight,"Regular, well-drained soil",Low-nitrogen
@@ -172,7 +164,6 @@ Epazote,fast,moist,full sunlight,"Regular, well-drained soil",Organic
 Fern (Maidenhair),slow,moist,indirect sunlight,"Regular, well-drained soil",Organic
 Galangal,moderate,well-drained,partial sunlight,"Regular, moist soil",Balanced
 Indian Cress,moderate,moist,full sunlight,"Regular, moist soil",Low-nitrogen
-Lacandonian,moderate,loamy,partial sunlight,"Regular, moist soil",No
 Mandevilla,fast,loamy,full sunlight,"Regular, well-drained soil",Balanced
 Mayapple,slow,well-drained,partial sunlight,"Regular, moist soil",Low-nitrogen
 Nutmeg,moderate,loamy,full sunlight,"Regular, moist soil",Organic
@@ -195,14 +186,10 @@ Achillea (Yarrow),moderate,well-drained,full sunlight,Let soil dry between water
 Angelonia,moderate,well-drained,full sunlight,Keep soil consistently moist,Organic
 Bearded Iris,slow,sandy,partial sunlight,Keep soil evenly moist,Balanced
 Black Currant,moderate,loamy,partial sunlight,Water when soil feels dry,Organic
-Blazing Star,moderate,loamy,full sunlight,Water when soil is dry,Organic
 Bloodroot,slow,moist,partial sunlight,Keep soil slightly moist,Organic
 Carob Tree,slow,well-drained,full sunlight,Water when soil is dry,Balanced
-Chinese Lantern Plant,moderate,loamy,partial sunlight,Water when soil feels dry,Balanced
 Clover,fast,loamy,full sunlight,Water when topsoil is dry,No
-Coltsfoot,slow,moist,partial sunlight,Water when soil is dry,Low-nitrogen
 Daffodils,slow,loamy,full sunlight,Keep soil consistently moist,Organic
-Daisy Fleabane,moderate,loamy,partial sunlight,Water weekly,Low-nitrogen
 Dogwood Tree,slow,loamy,partial sunlight,Keep soil consistently moist,Low-nitrogen
 Engelmann Spruce,slow,well-drained,full sunlight,Water when soil feels dry,Balanced
 Fairy Lantern,moderate,loamy,partial sunlight,Keep soil slightly moist,Balanced
@@ -219,8 +206,6 @@ Henbane,moderate,loamy,full sunlight,Water when soil feels dry,Organic
 Heracleum (Cow Parsnip),fast,loamy,partial sunlight,Keep soil moist,Balanced
 Hops Vine,fast,well-drained,full sunlight,Keep soil moist,Low-nitrogen
 Indian Grass,moderate,loamy,full sunlight,Water when soil is dry,Low-nitrogen
-Islander (Agave),slow,well-drained,full sunlight,Let soil dry between watering,No
-Ironwood,slow,loamy,full sunlight,Water when soil is dry,Organic
 Jerusalem Artichoke,fast,loamy,full sunlight,Water when soil is dry,Balanced
 Laelia Orchid,slow,well-drained,indirect sunlight,Keep soil consistently moist,No
 Ligustrum,fast,loamy,partial sunlight,Water when topsoil is dry,Low-nitrogen

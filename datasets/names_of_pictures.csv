@@ -1,0 +1,231 @@
+Plant Name,Growth,Soil,Sunlight,Watering,Fertilization Type,Watering Frequency,Health Indicator,Efficiency,Soil goodness,sun liking
+Aloe Vera,slow,sandy,indirect sunlight,Water weekly,Balanced,-0.2727272727272727,1.0,-1.0,-0.5,-1.0
+Basil,fast,well-drained,full sunlight,Keep soil evenly moist,Organic,0.8181818181818181,0.5,1.0,0.0,1.0
+Snake Plant,slow,well-drained,indirect sunlight,Water when soil is dry,No,-0.8181818181818183,0.0,-1.0,0.0,-1.0
+Lavender,moderate,sandy,full sunlight,Let soil dry between watering,No,-1.0,0.0,0.0,-0.5,1.0
+Cactus,slow,sandy,full sunlight,Let soil dry between watering,Low-nitrogen,-1.0,-0.5,-1.0,-0.5,1.0
+Rosemary,moderate,well-drained,full sunlight,Let soil dry between watering,No,-1.0,0.0,0.0,0.0,1.0
+Mint,fast,well-drained,partial sunlight,Keep soil consistently moist,Balanced,1.0,1.0,1.0,0.0,0.0
+Thyme,moderate,sandy,full sunlight,Let soil dry between watering,Organic,-1.0,0.5,0.0,-0.5,1.0
+Peace Lily,moderate,well-drained,indirect sunlight,Water when soil feels dry,Balanced,-0.4545454545454546,1.0,0.0,0.0,-1.0
+Spider Plant,moderate,loamy,indirect sunlight,Keep soil slightly moist,Balanced,0.4545454545454546,1.0,0.0,1.0,-1.0
+Parsley,moderate,well-drained,partial sunlight,Keep soil consistently moist,Organic,1.0,0.5,0.0,0.0,0.0
+Fern (Boston),moderate,well-drained,indirect sunlight,Water when topsoil is dry,Organic,-0.6363636363636365,0.5,0.0,0.0,-1.0
+Bamboo Palm,slow,well-drained,indirect sunlight,Water weekly,Balanced,-0.2727272727272727,1.0,-1.0,0.0,-1.0
+Money Plant,moderate,well-drained,indirect sunlight,Water when topsoil is dry,Balanced,-0.6363636363636365,1.0,0.0,0.0,-1.0
+Jade Plant,slow,sandy,indirect sunlight,Water when soil is dry,Low-nitrogen,-0.8181818181818183,-0.5,-1.0,-0.5,-1.0
+Orchids,moderate,well-drained,indirect sunlight,Water weekly,Balanced,-0.2727272727272727,1.0,0.0,0.0,-1.0
+Cilantro,fast,well-drained,full sunlight,Keep soil moist,Balanced,0.6363636363636364,1.0,1.0,0.0,1.0
+Dill,moderate,sandy,full sunlight,Keep soil evenly moist,Organic,0.8181818181818181,0.5,0.0,-0.5,1.0
+Oregano,moderate,sandy,full sunlight,Water when topsoil is dry,Organic,-0.6363636363636365,0.5,0.0,-0.5,1.0
+Pothos,fast,well-drained,indirect sunlight,Water when soil is dry,Balanced,-0.8181818181818183,1.0,1.0,0.0,-1.0
+Bougainvillea,fast,well-drained,full sunlight,Water when soil is dry,Low-nitrogen,-0.8181818181818183,-0.5,1.0,0.0,1.0
+Fiddle Leaf Fig,slow,well-drained,indirect sunlight,Water when topsoil is dry,Balanced,-0.6363636363636365,1.0,-1.0,0.0,-1.0
+Sage,moderate,well-drained,full sunlight,Let soil dry between watering,Organic,-1.0,0.5,0.0,0.0,1.0
+Cosmos,fast,sandy,full sunlight,Water when soil feels dry,Organic,-0.4545454545454546,0.5,1.0,-0.5,1.0
+Geranium,moderate,well-drained,full sunlight,Water when soil is dry,Balanced,-0.8181818181818183,1.0,0.0,0.0,1.0
+Marigold,fast,well-drained,full sunlight,Water when soil is dry,Balanced,-0.8181818181818183,1.0,1.0,0.0,1.0
+Zinnia,fast,well-drained,full sunlight,Water weekly,Balanced,-0.2727272727272727,1.0,1.0,0.0,1.0
+Hibiscus,moderate,well-drained,full sunlight,Water when topsoil is dry,Balanced,-0.6363636363636365,1.0,0.0,0.0,1.0
+Begonia,moderate,well-drained,indirect sunlight,Keep soil moist,Organic,0.6363636363636364,0.5,0.0,0.0,-1.0
+Chrysanthemum,fast,well-drained,full sunlight,Water when soil feels dry,Balanced,-0.4545454545454546,1.0,1.0,0.0,1.0
+Daffodil,slow,well-drained,full sunlight,Water weekly,Balanced,-0.2727272727272727,1.0,-1.0,0.0,1.0
+Tulip,slow,sandy,full sunlight,Water when soil is dry,Low-nitrogen,-0.8181818181818183,-0.5,-1.0,-0.5,1.0
+Jasmine,moderate,loamy,full sunlight,Water weekly,Organic,-0.2727272727272727,0.5,0.0,1.0,1.0
+Ivy,moderate,well-drained,indirect sunlight,Keep soil slightly moist,Balanced,0.4545454545454546,1.0,0.0,0.0,-1.0
+Nasturtium,fast,well-drained,full sunlight,Water weekly,Organic,-0.2727272727272727,0.5,1.0,0.0,1.0
+Carnation,moderate,well-drained,full sunlight,Water when soil is dry,Low-nitrogen,-0.8181818181818183,-0.5,0.0,0.0,1.0
+Pansy,moderate,well-drained,partial sunlight,Keep soil evenly moist,Organic,0.8181818181818181,0.5,0.0,0.0,0.0
+Sweet Pea,fast,loamy,full sunlight,Water weekly,Balanced,-0.2727272727272727,1.0,1.0,1.0,1.0
+Verbena,moderate,sandy,full sunlight,Water weekly,Low-nitrogen,-0.2727272727272727,-0.5,0.0,-0.5,1.0
+Gerbera Daisy,moderate,well-drained,full sunlight,Water weekly,Balanced,-0.2727272727272727,1.0,0.0,0.0,1.0
+Hyacinth,moderate,loamy,full sunlight,Water weekly,Low-nitrogen,-0.2727272727272727,-0.5,0.0,1.0,1.0
+Foxglove,moderate,well-drained,partial sunlight,Water weekly,Balanced,-0.2727272727272727,1.0,0.0,0.0,0.0
+Bluebell,moderate,well-drained,partial sunlight,Keep soil slightly moist,Organic,0.4545454545454546,0.5,0.0,0.0,0.0
+Camellia,slow,acidic,partial sunlight,Water weekly,Acidic,-0.2727272727272727,-1.0,-1.0,-1.0,0.0
+Magnolia,slow,acidic,full sunlight,Water when soil is dry,Acidic,-0.8181818181818183,-1.0,-1.0,-1.0,1.0
+Gardenia,slow,acidic,indirect sunlight,Water weekly,Acidic,-0.2727272727272727,-1.0,-1.0,-1.0,-1.0
+Azalea,moderate,acidic,partial sunlight,Keep soil moist,Acidic,0.6363636363636364,-1.0,0.0,-1.0,0.0
+Eucalyptus,slow,sandy,full sunlight,Water when soil feels dry,Low-nitrogen,-0.4545454545454546,-0.5,-1.0,-0.5,1.0
+Lotus,moderate,loamy,full sunlight,Keep soil consistently moist,Balanced,1.0,1.0,0.0,1.0,1.0
+Orchid Cactus,slow,sandy,indirect sunlight,Water weekly,Low-nitrogen,-0.2727272727272727,-0.5,-1.0,-0.5,-1.0
+Lotus Bamboo,slow,well-drained,indirect sunlight,Water weekly,Organic,-0.2727272727272727,0.5,-1.0,0.0,-1.0
+Coneflower,moderate,sandy,full sunlight,Water weekly,Balanced,-0.2727272727272727,1.0,0.0,-0.5,1.0
+Alyssum,fast,sandy,full sunlight,Water weekly,Organic,-0.2727272727272727,0.5,1.0,-0.5,1.0
+Lobelia,fast,well-drained,indirect sunlight,Water weekly,Low-nitrogen,-0.2727272727272727,-0.5,1.0,0.0,-1.0
+Aster,moderate,well-drained,full sunlight,Water weekly,Low-nitrogen,-0.2727272727272727,-0.5,0.0,0.0,1.0
+Coral Bells,moderate,well-drained,partial sunlight,Water weekly,Low-nitrogen,-0.2727272727272727,-0.5,0.0,0.0,0.0
+Bleeding Heart,slow,well-drained,partial sunlight,Keep soil moist,Organic,0.6363636363636364,0.5,-1.0,0.0,0.0
+Sweet Alyssum,fast,sandy,full sunlight,Water weekly,Low-nitrogen,-0.2727272727272727,-0.5,1.0,-0.5,1.0
+Astilbe,moderate,well-drained,partial sunlight,Keep soil moist,Organic,0.6363636363636364,0.5,0.0,0.0,0.0
+Coreopsis,fast,sandy,full sunlight,Water when soil is dry,Low-nitrogen,-0.8181818181818183,-0.5,1.0,-0.5,1.0
+Globe Thistle,moderate,sandy,full sunlight,Water when soil is dry,Low-nitrogen,-0.8181818181818183,-0.5,0.0,-0.5,1.0
+Catnip,fast,sandy,full sunlight,Water when topsoil is dry,Balanced,-0.6363636363636365,1.0,1.0,-0.5,1.0
+Tarragon,slow,sandy,full sunlight,Water weekly,Organic,-0.2727272727272727,0.5,-1.0,-0.5,1.0
+Bay Laurel,slow,sandy,partial sunlight,Water weekly,Organic,-0.2727272727272727,0.5,-1.0,-0.5,0.0
+Lemon Balm,moderate,well-drained,partial sunlight,Water weekly,Organic,-0.2727272727272727,0.5,0.0,0.0,0.0
+Fennel,moderate,sandy,full sunlight,Water weekly,Organic,-0.2727272727272727,0.5,0.0,-0.5,1.0
+Stevia,slow,well-drained,partial sunlight,Water weekly,Organic,-0.2727272727272727,0.5,-1.0,0.0,0.0
+Marjoram,moderate,sandy,full sunlight,Water when soil is dry,No,-0.8181818181818183,0.0,0.0,-0.5,1.0
+ZZ Plant,slow,sandy,indirect sunlight,Let soil dry between watering,No,-1.0,0.0,-1.0,-0.5,-1.0
+Philodendron,moderate,well-drained,indirect sunlight,Water weekly,No,-0.2727272727272727,0.0,0.0,0.0,-1.0
+Calathea,moderate,well-drained,indirect sunlight,Keep soil moist,No,0.6363636363636364,0.0,0.0,0.0,-1.0
+Croton,slow,well-drained,indirect sunlight,Water weekly,No,-0.2727272727272727,0.0,-1.0,0.0,-1.0
+Ficus Tree,slow,well-drained,indirect sunlight,Water weekly,Low-nitrogen,-0.2727272727272727,-0.5,-1.0,0.0,-1.0
+Haworthia,slow,sandy,indirect sunlight,Water when topsoil is dry,Low-nitrogen,-0.6363636363636365,-0.5,-1.0,-0.5,-1.0
+Swedish Ivy,fast,well-drained,indirect sunlight,Water weekly,Balanced,-0.2727272727272727,1.0,1.0,0.0,-1.0
+Hoya (Wax Plant),slow,sandy,indirect sunlight,Water when topsoil is dry,Balanced,-0.6363636363636365,1.0,-1.0,-0.5,-1.0
+Begonia (Outdoor),moderate,well-drained,full sunlight,Water weekly,Organic,-0.2727272727272727,0.5,0.0,0.0,1.0
+Petunia (Trailing),fast,sandy,full sunlight,Regular Watering,Organic,0.09090909090909083,0.5,1.0,-0.5,1.0
+Clematis,slow,sandy,full sunlight,Regular Watering,Organic,0.09090909090909083,0.5,-1.0,-0.5,1.0
+Ageratum,fast,well-drained,full sunlight,Regular Watering,Organic,0.09090909090909083,0.5,1.0,0.0,1.0
+Calla Lily,moderate,sandy,partial sunlight,Keep soil moist,Organic,0.6363636363636364,0.5,0.0,-0.5,0.0
+Heliotrope,moderate,well-drained,full sunlight,Regular Watering,Organic,0.09090909090909083,0.5,0.0,0.0,1.0
+Gazania,fast,sandy,full sunlight,Water when soil is dry,Organic,-0.8181818181818183,0.5,1.0,-0.5,1.0
+Portulaca,fast,sandy,full sunlight,Water when soil is dry,Balanced,-0.8181818181818183,1.0,1.0,-0.5,1.0
+Coleus,moderate,well-drained,indirect sunlight,Regular Watering,Low-nitrogen,0.09090909090909083,-0.5,0.0,0.0,-1.0
+Amaryllis,moderate,sandy,full sunlight,Keep soil moist,Low-nitrogen,0.6363636363636364,-0.5,0.0,-0.5,1.0
+Yucca,slow,sandy,full sunlight,Water when topsoil is dry,Organic,-0.6363636363636365,0.5,-1.0,-0.5,1.0
+Acalypha,moderate,sandy,full sunlight,Regular Watering,Organic,0.09090909090909083,0.5,0.0,-0.5,1.0
+Viola,moderate,well-drained,full sunlight,Keep soil moist,Organic,0.6363636363636364,0.5,0.0,0.0,1.0
+Jasmine (Outdoor),moderate,well-drained,full sunlight,Regular Watering,Balanced,0.09090909090909083,1.0,0.0,0.0,1.0
+Campanula,moderate,sandy,partial sunlight,Keep soil moist,Balanced,0.6363636363636364,1.0,0.0,-0.5,0.0
+Sea Holly,slow,sandy,full sunlight,Water when soil is dry,Balanced,-0.8181818181818183,1.0,-1.0,-0.5,1.0
+Daylily,fast,sandy,full sunlight,Regular Watering,Low-nitrogen,0.09090909090909083,-0.5,1.0,-0.5,1.0
+Yarrow,moderate,sandy,full sunlight,Water when soil is dry,Balanced,-0.8181818181818183,1.0,0.0,-0.5,1.0
+Neem Tree,fast,sandy,full sunlight,Let soil dry between watering,Organic,-1.0,0.5,1.0,-0.5,1.0
+Peepal Tree (Bodhi Tree),moderate,loamy,partial sunlight,"Regular, well-drained soil",Organic,-0.09090909090909083,0.5,0.0,1.0,0.0
+Banyan Tree (Bargad),slow,well-drained,full sunlight,"Regular, well-drained soil",Low-nitrogen,-0.09090909090909083,-0.5,-1.0,0.0,1.0
+Sheesham Tree,fast,loamy,full sunlight,Let soil dry between watering,Organic,-1.0,0.5,1.0,1.0,1.0
+Gul Mohar (Flame Tree),moderate,sandy,full sunlight,"Regular, moist soil",Organic,0.2727272727272727,0.5,0.0,-0.5,1.0
+Date Palm (Khajoor),moderate,sandy,full sunlight,Water when soil is dry,Organic,-0.8181818181818183,0.5,0.0,-0.5,1.0
+Ber Tree (Indian Jujube),moderate,sandy,full sunlight,Water when soil feels dry,Organic,-0.4545454545454546,0.5,0.0,-0.5,1.0
+Beggonia (Outdoor),moderate,well-drained,full sunlight,"Regular, moist soil",Organic,0.2727272727272727,0.5,0.0,0.0,1.0
+Chrysanthemum (Outdoor),fast,loamy,full sunlight,"Regular, moist soil",Balanced,0.2727272727272727,1.0,1.0,1.0,1.0
+Japanese Maple,slow,acidic,partial sunlight,Keep soil consistently moist,Balanced,1.0,1.0,-1.0,-1.0,0.0
+Cucumbers,fast,well-drained,full sunlight,"Regular, moist soil",Organic,0.2727272727272727,0.5,1.0,0.0,1.0
+Maranta (Prayer Plant),moderate,loamy,partial sunlight,"Regular, moist soil",Balanced,0.2727272727272727,1.0,0.0,1.0,0.0
+Kalanchoe,moderate,sandy,full sunlight,Let soil dry between watering,Balanced,-1.0,1.0,0.0,-0.5,1.0
+Pilea,moderate,loamy,indirect sunlight,Water when topsoil is dry,Balanced,-0.6363636363636365,1.0,0.0,1.0,-1.0
+Pothos (Golden Pathos),fast,loamy,indirect sunlight,Water when topsoil is dry,Balanced,-0.6363636363636365,1.0,1.0,1.0,-1.0
+Ficus Benjamina,moderate,well-drained,indirect sunlight,Water when soil is dry,Balanced,-0.8181818181818183,1.0,0.0,0.0,-1.0
+Mimosa,fast,loamy,full sunlight,"Regular, moist soil",No,0.2727272727272727,0.0,1.0,1.0,1.0
+Zucchini,fast,well-drained,full sunlight,"Regular, moist soil",Balanced,0.2727272727272727,1.0,1.0,0.0,1.0
+Chili Pepper,fast,loamy,full sunlight,"Regular, moist soil",Organic,0.2727272727272727,0.5,1.0,1.0,1.0
+Grape Vine,moderate,acidic,full sunlight,"Regular, well-drained soil",Balanced,-0.09090909090909083,1.0,0.0,-1.0,1.0
+Cherry Blossom,slow,well-drained,full sunlight,"Regular, moist soil",Organic,0.2727272727272727,0.5,-1.0,0.0,1.0
+Pine,slow,sandy,full sunlight,Water when soil feels dry,Balanced,-0.4545454545454546,1.0,-1.0,-0.5,1.0
+Lily of the Valley,slow,acidic,partial sunlight,"Regular, moist soil",Low-nitrogen,0.2727272727272727,-0.5,-1.0,-1.0,0.0
+Wisteria,slow,well-drained,full sunlight,"Regular, moist soil",Balanced,0.2727272727272727,1.0,-1.0,0.0,1.0
+Strawberry,moderate,sandy,full sunlight,"Regular, well-drained soil",Organic,-0.09090909090909083,0.5,0.0,-0.5,1.0
+Raspberry,moderate,acidic,full sunlight,"Regular, well-drained soil",Organic,-0.09090909090909083,0.5,0.0,-1.0,1.0
+Cornflower,moderate,well-drained,full sunlight,"Regular, moist soil",Balanced,0.2727272727272727,1.0,0.0,0.0,1.0
+Acorn Squash,moderate,loamy,full sunlight,Regular Watering,Balanced,0.09090909090909083,1.0,0.0,1.0,1.0
+Apple Tree,slow,sandy,full sunlight,Water weekly,Balanced,-0.2727272727272727,1.0,-1.0,-0.5,1.0
+Balsam,fast,moist,full sunlight,Regular Watering,Organic,0.09090909090909083,0.5,1.0,0.5,1.0
+Banana Plant,fast,moist,full sunlight,Water weekly,Balanced,-0.2727272727272727,1.0,1.0,0.5,1.0
+Beetroot,moderate,sandy,full sunlight,Regular Watering,Organic,0.09090909090909083,0.5,0.0,-0.5,1.0
+Blackcurrant,moderate,acidic,full sunlight,Keep soil moist,Organic,0.6363636363636364,0.5,0.0,-1.0,1.0
+Bok Choy,fast,loamy,full sunlight,Regular Watering,Organic,0.09090909090909083,0.5,1.0,1.0,1.0
+Brassica,moderate,moist,full sunlight,Regular Watering,Low-nitrogen,0.09090909090909083,-0.5,0.0,0.5,1.0
+Chayote,fast,well-drained,full sunlight,Regular Watering,Balanced,0.09090909090909083,1.0,1.0,0.0,1.0
+Chestnut,slow,well-drained,full sunlight,Regular Watering,Organic,0.09090909090909083,0.5,-1.0,0.0,1.0
+Clementine,moderate,loamy,full sunlight,Regular Watering,Organic,0.09090909090909083,0.5,0.0,1.0,1.0
+Clove,slow,sandy,full sunlight,Keep soil consistently moist,Organic,1.0,0.5,-1.0,-0.5,1.0
+Corn,fast,loamy,full sunlight,Regular Watering,Balanced,0.09090909090909083,1.0,1.0,1.0,1.0
+Cucumber,fast,sandy,full sunlight,Keep soil consistently moist,Organic,1.0,0.5,1.0,-0.5,1.0
+Currant,moderate,acidic,full sunlight,Keep soil consistently moist,Organic,1.0,0.5,0.0,-1.0,1.0
+Date Palm,slow,sandy,full sunlight,Water when soil is dry,Organic,-0.8181818181818183,0.5,-1.0,-0.5,1.0
+Dragon Fruit,fast,sandy,full sunlight,Regular Watering,Balanced,0.09090909090909083,1.0,1.0,-0.5,1.0
+Fig Tree,moderate,sandy,full sunlight,Regular Watering,Balanced,0.09090909090909083,1.0,0.0,-0.5,1.0
+Jackfruit,moderate,well-drained,full sunlight,Regular Watering,Organic,0.09090909090909083,0.5,0.0,0.0,1.0
+Jasmine (Indoor),moderate,well-drained,indirect sunlight,Keep soil moist,Low-nitrogen,0.6363636363636364,-0.5,0.0,0.0,-1.0
+Kiwi,fast,loamy,full sunlight,Keep soil moist,Organic,0.6363636363636364,0.5,1.0,1.0,1.0
+Lady's Mantle,moderate,loamy,partial sunlight,Keep soil moist,Organic,0.6363636363636364,0.5,0.0,1.0,0.0
+Lemon Tree,slow,sandy,full sunlight,Regular Watering,Organic,0.09090909090909083,0.5,-1.0,-0.5,1.0
+Moringa,fast,sandy,full sunlight,Regular Watering,Organic,0.09090909090909083,0.5,1.0,-0.5,1.0
+Nectarine,slow,loamy,full sunlight,Regular Watering,Organic,0.09090909090909083,0.5,-1.0,1.0,1.0
+Acanthus,moderate,loamy,partial sunlight,"Regular, moist soil",Organic,0.2727272727272727,0.5,0.0,1.0,0.0
+Alstroemeria,slow,loamy,partial sunlight,Water when topsoil is dry,Balanced,-0.6363636363636365,1.0,-1.0,1.0,0.0
+Aquilegia (Columbine),moderate,loamy,partial sunlight,Let soil dry between watering,Organic,-1.0,0.5,0.0,1.0,0.0
+Arum Lily,moderate,moist,partial sunlight,"Regular, moist soil",Balanced,0.2727272727272727,1.0,0.0,0.5,0.0
+Aztec Lily,slow,sandy,partial sunlight,Let soil dry between watering,Organic,-1.0,0.5,-1.0,-0.5,0.0
+Barberry,moderate,sandy,full sunlight,"Regular, well-drained soil",Balanced,-0.09090909090909083,1.0,0.0,-0.5,1.0
+Cananga (Ylang-Ylang),moderate,loamy,full sunlight,"Regular, well-drained soil",Organic,-0.09090909090909083,0.5,0.0,1.0,1.0
+Cockscomb (Celosia),moderate,well-drained,full sunlight,Water when topsoil is dry,Organic,-0.6363636363636365,0.5,0.0,0.0,1.0
+Cress,fast,moist,full sunlight,"Regular, moist soil",Balanced,0.2727272727272727,1.0,1.0,0.5,1.0
+Cyclamen,moderate,moist,indirect sunlight,"Regular, moist soil",Balanced,0.2727272727272727,1.0,0.0,0.5,-1.0
+Devilï¿½s Ivy,moderate,well-drained,indirect sunlight,"Regular, moist soil",Organic,0.2727272727272727,0.5,0.0,0.0,-1.0
+Ficus Microcarpa,moderate,well-drained,partial sunlight,"Regular, well-drained soil",Organic,-0.09090909090909083,0.5,0.0,0.0,0.0
+Guava,moderate,well-drained,full sunlight,"Regular, well-drained soil",Balanced,-0.09090909090909083,1.0,0.0,0.0,1.0
+Ixia,moderate,well-drained,full sunlight,"Regular, well-drained soil",Low-nitrogen,-0.09090909090909083,-0.5,0.0,0.0,1.0
+Kiwi Vine,fast,well-drained,full sunlight,"Regular, well-drained soil",Organic,-0.09090909090909083,0.5,1.0,0.0,1.0
+Knautia,moderate,well-drained,full sunlight,"Regular, well-drained soil",No,-0.09090909090909083,0.0,0.0,0.0,1.0
+Luffa,fast,well-drained,full sunlight,"Regular, well-drained soil",Balanced,-0.09090909090909083,1.0,1.0,0.0,1.0
+Malva (Mallow),moderate,well-drained,full sunlight,"Regular, well-drained soil",Organic,-0.09090909090909083,0.5,0.0,0.0,1.0
+Protea,slow,well-drained,full sunlight,"Regular, well-drained soil",Organic,-0.09090909090909083,0.5,-1.0,0.0,1.0
+Red-leafed Maple,slow,well-drained,partial sunlight,"Regular, well-drained soil",Balanced,-0.09090909090909083,1.0,-1.0,0.0,0.0
+Rhododendron,slow,acidic,partial sunlight,"Regular, well-drained soil",Organic,-0.09090909090909083,0.5,-1.0,-1.0,0.0
+Taro,moderate,moist,full sunlight,"Regular, moist soil",Organic,0.2727272727272727,0.5,0.0,0.5,1.0
+Violet,moderate,moist,indirect sunlight,"Regular, moist soil",Organic,0.2727272727272727,0.5,0.0,0.5,-1.0
+Zebra Plant,moderate,moist,partial sunlight,"Regular, moist soil",Organic,0.2727272727272727,0.5,0.0,0.5,0.0
+Zephyranthes (Rain Lily),fast,acidic,full sunlight,"Regular, moist soil",Balanced,0.2727272727272727,1.0,1.0,-1.0,1.0
+Buckwheat,fast,sandy,full sunlight,"Regular, moist soil",Low-nitrogen,0.2727272727272727,-0.5,1.0,-0.5,1.0
+Elderflower,moderate,well-drained,full sunlight,"Regular, moist soil",No,0.2727272727272727,0.0,0.0,0.0,1.0
+Epazote,fast,moist,full sunlight,"Regular, well-drained soil",Organic,-0.09090909090909083,0.5,1.0,0.5,1.0
+Fern (Maidenhair),slow,moist,indirect sunlight,"Regular, well-drained soil",Organic,-0.09090909090909083,0.5,-1.0,0.5,-1.0
+Galangal,moderate,well-drained,partial sunlight,"Regular, moist soil",Balanced,0.2727272727272727,1.0,0.0,0.0,0.0
+Indian Cress,moderate,moist,full sunlight,"Regular, moist soil",Low-nitrogen,0.2727272727272727,-0.5,0.0,0.5,1.0
+Lacandonian,moderate,loamy,partial sunlight,"Regular, moist soil",No,0.2727272727272727,0.0,0.0,1.0,0.0
+Mandevilla,fast,loamy,full sunlight,"Regular, well-drained soil",Balanced,-0.09090909090909083,1.0,1.0,1.0,1.0
+Mayapple,slow,well-drained,partial sunlight,"Regular, moist soil",Low-nitrogen,0.2727272727272727,-0.5,-1.0,0.0,0.0
+Nutmeg,moderate,loamy,full sunlight,"Regular, moist soil",Organic,0.2727272727272727,0.5,0.0,1.0,1.0
+Orchid (Vanilla),slow,well-drained,indirect sunlight,"Regular, well-drained soil",No,-0.09090909090909083,0.0,-1.0,0.0,-1.0
+Plumeria,moderate,loamy,full sunlight,"Regular, well-drained soil",Low-nitrogen,-0.09090909090909083,-0.5,0.0,1.0,1.0
+Quinoa,fast,loamy,full sunlight,"Regular, well-drained soil",No,-0.09090909090909083,0.0,1.0,1.0,1.0
+Redwood,slow,moist,full sunlight,"Regular, moist soil",Low-nitrogen,0.2727272727272727,-0.5,-1.0,0.5,1.0
+Rose of Sharon,moderate,moist,full sunlight,"Regular, moist soil",Balanced,0.2727272727272727,1.0,0.0,0.5,1.0
+Rosemary Mint,moderate,well-drained,partial sunlight,"Regular, well-drained soil",No,-0.09090909090909083,0.0,0.0,0.0,0.0
+Sedge,slow,well-drained,partial sunlight,"Regular, well-drained soil",Organic,-0.09090909090909083,0.5,-1.0,0.0,0.0
+Silene (Catchfly),moderate,loamy,full sunlight,"Regular, well-drained soil",No,-0.09090909090909083,0.0,0.0,1.0,1.0
+Silverbell Tree,moderate,moist,full sunlight,"Regular, well-drained soil",Organic,-0.09090909090909083,0.5,0.0,0.5,1.0
+Soursop,fast,well-drained,full sunlight,"Regular, moist soil",No,0.2727272727272727,0.0,1.0,0.0,1.0
+Tansy,slow,loamy,full sunlight,"Regular, moist soil",No,0.2727272727272727,0.0,-1.0,1.0,1.0
+Themeda (Kangaroo Grass),fast,sandy,full sunlight,"Regular, moist soil",Organic,0.2727272727272727,0.5,1.0,-0.5,1.0
+Wattle,moderate,sandy,full sunlight,Water when soil feels dry,No,-0.4545454545454546,0.0,0.0,-0.5,1.0
+Zea Mays (Corn),fast,loamy,full sunlight,Keep soil consistently moist,Low-nitrogen,1.0,-0.5,1.0,1.0,1.0
+Zebra Grass,moderate,well-drained,partial sunlight,Keep soil consistently moist,Low-nitrogen,1.0,-0.5,0.0,0.0,0.0
+Achillea (Yarrow),moderate,well-drained,full sunlight,Let soil dry between watering,Balanced,-1.0,1.0,0.0,0.0,1.0
+Angelonia,moderate,well-drained,full sunlight,Keep soil consistently moist,Organic,1.0,0.5,0.0,0.0,1.0
+Bearded Iris,slow,sandy,partial sunlight,Keep soil evenly moist,Balanced,0.8181818181818181,1.0,-1.0,-0.5,0.0
+Black Currant,moderate,loamy,partial sunlight,Water when soil feels dry,Organic,-0.4545454545454546,0.5,0.0,1.0,0.0
+Blazing Star,moderate,loamy,full sunlight,Water when soil is dry,Organic,-0.8181818181818183,0.5,0.0,1.0,1.0
+Bloodroot,slow,moist,partial sunlight,Keep soil slightly moist,Organic,0.4545454545454546,0.5,-1.0,0.5,0.0
+Carob Tree,slow,well-drained,full sunlight,Water when soil is dry,Balanced,-0.8181818181818183,1.0,-1.0,0.0,1.0
+Chinese Lantern Plant,moderate,loamy,partial sunlight,Water when soil feels dry,Balanced,-0.4545454545454546,1.0,0.0,1.0,0.0
+Clover,fast,loamy,full sunlight,Water when topsoil is dry,No,-0.6363636363636365,0.0,1.0,1.0,1.0
+Coltsfoot,slow,moist,partial sunlight,Water when soil is dry,Low-nitrogen,-0.8181818181818183,-0.5,-1.0,0.5,0.0
+Daffodils,slow,loamy,full sunlight,Keep soil consistently moist,Organic,1.0,0.5,-1.0,1.0,1.0
+Daisy Fleabane,moderate,loamy,partial sunlight,Water weekly,Low-nitrogen,-0.2727272727272727,-0.5,0.0,1.0,0.0
+Dogwood Tree,slow,loamy,partial sunlight,Keep soil consistently moist,Low-nitrogen,1.0,-0.5,-1.0,1.0,0.0
+Engelmann Spruce,slow,well-drained,full sunlight,Water when soil feels dry,Balanced,-0.4545454545454546,1.0,-1.0,0.0,1.0
+Fairy Lantern,moderate,loamy,partial sunlight,Keep soil slightly moist,Balanced,0.4545454545454546,1.0,0.0,1.0,0.0
+Fritillaria,slow,well-drained,partial sunlight,Water when soil is dry,No,-0.8181818181818183,0.0,-1.0,0.0,0.0
+Galax,moderate,moist,partial sunlight,Keep soil evenly moist,No,0.8181818181818181,0.0,0.0,0.5,0.0
+Ginkgo,slow,loamy,full sunlight,Water when topsoil is dry,Balanced,-0.6363636363636365,1.0,-1.0,1.0,1.0
+Grape Hyacinth,fast,loamy,full sunlight,Keep soil consistently moist,Organic,1.0,0.5,1.0,1.0,1.0
+Guar,fast,sandy,full sunlight,Water when soil is dry,No,-0.8181818181818183,0.0,1.0,-0.5,1.0
+Gumwood Tree,moderate,loamy,partial sunlight,Water when soil is dry,Organic,-0.8181818181818183,0.5,0.0,1.0,0.0
+Goldenrods,moderate,loamy,full sunlight,Keep soil moist,Organic,0.6363636363636364,0.5,0.0,1.0,1.0
+Goldenseal,slow,moist,partial sunlight,Keep soil moist,Balanced,0.6363636363636364,1.0,-1.0,0.5,0.0
+Heliopsis,moderate,loamy,full sunlight,Keep soil moist,No,0.6363636363636364,0.0,0.0,1.0,1.0
+Henbane,moderate,loamy,full sunlight,Water when soil feels dry,Organic,-0.4545454545454546,0.5,0.0,1.0,1.0
+Heracleum (Cow Parsnip),fast,loamy,partial sunlight,Keep soil moist,Balanced,0.6363636363636364,1.0,1.0,1.0,0.0
+Hops Vine,fast,well-drained,full sunlight,Keep soil moist,Low-nitrogen,0.6363636363636364,-0.5,1.0,0.0,1.0
+Indian Grass,moderate,loamy,full sunlight,Water when soil is dry,Low-nitrogen,-0.8181818181818183,-0.5,0.0,1.0,1.0
+Islander (Agave),slow,well-drained,full sunlight,Let soil dry between watering,No,-1.0,0.0,-1.0,0.0,1.0
+Ironwood,slow,loamy,full sunlight,Water when soil is dry,Organic,-0.8181818181818183,0.5,-1.0,1.0,1.0
+Jerusalem Artichoke,fast,loamy,full sunlight,Water when soil is dry,Balanced,-0.8181818181818183,1.0,1.0,1.0,1.0
+Laelia Orchid,slow,well-drained,indirect sunlight,Keep soil consistently moist,No,1.0,0.0,-1.0,0.0,-1.0
+Ligustrum,fast,loamy,partial sunlight,Water when topsoil is dry,Low-nitrogen,-0.6363636363636365,-0.5,1.0,1.0,0.0
+Lilac Tree,slow,loamy,partial sunlight,Water weekly,Balanced,-0.2727272727272727,1.0,-1.0,1.0,0.0
