@@ -20,7 +20,7 @@ PARAMS = {
 HEADERS = {
     "User-Agent":'plant-character-classification 1.0'
 }
-names_links = pd.DataFrame(columns=['Names', 'links'])
+names_links = pd.DataFrame(columns=['Names', 'Links', 'Page Title'])
 names_links['Names'] = plant_names
 x= 0
 for name in plant_names:
@@ -38,9 +38,12 @@ for name in plant_names:
     media_type = image_url.rsplit(".",1)[-1].lower()
     no_space_name = re.sub("\s", "_", name)
     file_name = f"content/{no_space_name}.{media_type}"
-    names_links.loc[names_links["Names"] == name, 'links'] = image_url
+    names_links.loc[names_links["Names"] == name, 'Links'] = image_url
+    names_links.loc[names_links['Names'] == name, 'Page Title'] = page_title
     
     with open(file_name,"wb") as f:
         f.write(image_data)
 
-names_links.to_csv('links.csv', index=False)
+
+combined = pd.concat([df,names_links], axis=1)
+names_links.to_csv('plants_links.csv', index=False)

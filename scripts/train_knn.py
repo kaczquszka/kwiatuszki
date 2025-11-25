@@ -1,4 +1,4 @@
-from sklearn.model_selection import train_test_split
+#training knn classification on whole dataset
 from sklearn.neighbors import KNeighborsClassifier
 import pandas as pd
 import pickle 

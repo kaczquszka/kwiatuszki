@@ -7,6 +7,7 @@ from transformers import pipeline
 import pandas as pd
 import pickle
 import time
+import re
 
 
 if 'sentiment' not in st.session_state:
@@ -34,13 +35,41 @@ if 'info' not in st.session_state:
 if 'plant' not in st.session_state:
     st.session_state.plant = None     
 
-Questions ={
-    'Growth':'growth question',
-    'Soil':'soil question',
-    'Sunlight':'sunlight q',
-    'Watering':'watering q',
-    'Fertilization Type':'fertilizer q'
+Questions = {
+    "Growth": [
+        "Would you consider yourself a fast learner? Why?",
+        "How eager are you to learn new technologies?",
+        "Do you have difficulties acquiring new knowledge? If so, why?",
+        "How would you feel in a situation where you have to learn a new skill in a short time?"
+    ],
+    "Soil": [
+        "Is it easy for you to make new friends?",
+        "How do you feel in situations where you have to talk to new people?",
+        "How do you feel when you have to make a phone call to a person you haven't talked to yet?",
+        "How would you describe your attitude toward laws and regulations? Do you always follow them, no matter what?",
+        "Do you consider yourself the life of the party?"
+    ],
+    "Sunlight": [
+        "How do you feel about hot summer days?",
+        "Would you be happy spending a month in the tropics?",
+        "Do you prefer hot weather over cold weather?",
+        "How do you feel during summer when it comes to temperatures?"
+    ],
+    "Watering": [
+        "How do you feel about water sports?",
+        "Do sea cruises sound like a fun activity to you?",
+        "How do you feel about swimming in the warm Mediterranean Sea?",
+        "Do you enjoy swimming in pools or any natural bodies of water?",
+        "When you are on vacation, do you use pools or go swimming if possible?"
+    ],
+    "Fertilization Type": [
+        "Do you consider your diet healthy and good for you?",
+        "How do you feel about bio products?",
+        "Do you take care of your health?",
+        "Can you imagine your life without any fast-food meals?"
+    ]
 }
+
 
 def go_to_step2():
     st.session_state.step=2
@@ -82,30 +111,44 @@ def getPrediction():
     return(classifier.predict([results])[0])
     
 def findPage():
+
     query = st.session_state.plant + ' plant'
     page_name = wikipedia.search(query,1)
     wiki = wikipediaapi.Wikipedia('plant-character-classification 1.0', language='en', extract_format=wikipediaapi.ExtractFormat.HTML)
     return wiki.page(page_name[0])
 
 
-def printResults():
-    st.markdown(f"# Your inner plant is :rainbow[{st.session_state.plant}]!")
-    st.divider()
+def printResults(image_title,image_url):
+    left, mid ,right = st.columns([1,3,1])
+    with mid:
+        st.image(image_title,image_url)
     st.markdown("#### :violet[Why such result? :thinking:]")
     st.markdown("The questions you answered were mapped to specific traits of plants. " \
     "\n\nYour answers were then anaylized using fine tuned distilBert model on sentiment analysis. " \
     "\n\nThen, based on results obtained from the model, a simple k nearest neighbours classification was used to assign the most suitable plant to your character")
     st.divider()
     st.markdown('#### :violet[Still not satisfied? See for yourself then..]')
-    df = pd.read_csv('datasets/cleaned_plants.csv', encoding = "latin1")
+    df = pd.read_csv('datasets/plants_unique.csv', encoding = "latin1")
     # st.write(df[df['Plant Name']==st.session_state.plant].iloc[:,:6]) 
     results = pd.DataFrame(columns=['Category','Question','Your Answer', 'Sentiment assigned', 'Obtained trait'])
- 
+
     for category in df.columns[1:]:
         results.loc[len(results)]=[category,f'{Questions[category]}', f'{st.session_state.info[category]}',f'{st.session_state.sentiment[category]:.4f}',f'{df[df['Plant Name']==st.session_state.plant][category].values[0]}']
     
     st.dataframe(results, hide_index=True)
     st.divider()
+    
+def getPhotoAndSummary():
+    plants_links = pd.read_csv("datasets/plants_links.csv")
+    wiki = wikipediaapi.Wikipedia('plant-character-classification 1.0', language='en', extract_format=wikipediaapi.ExtractFormat.HTML)
+    st.session_state.page = wiki.page( plants_links.loc[plants_links['Names']==st.session_state.plant, 'Page Title'].values[0])
+    html_text = st.session_state.page.summary
+    source_text = st.session_state.page.fullurl
+    image_url = plants_links.loc[plants_links['Names']==st.session_state.plant, 'Links'].values[0]
+    media_type = image_url.rsplit(".",1)[-1].lower()
+    title = re.sub('\s','_', st.session_state.plant)
+    image_title= f"content/{title}.{media_type}"
+    return html_text,source_text, image_title, image_url
 
 if st.session_state.step == 1:
     title_placeholder = st.empty()
@@ -135,16 +178,18 @@ elif st.session_state.step == 2:
     st.write('hi')
     st.session_state.plant = getPrediction()
     st.session_state.page = findPage()
-    time.sleep(2)
     st.session_state.step = 3
     st.rerun()
 
 elif st.session_state.step == 3: 
-    html_text = st.session_state.page.summary
-    source_text = st.session_state.page.fullurl
+    html_text,source_text ,image_title,image_url = getPhotoAndSummary()
     if(st.session_state.page.exists()):
-        printResults()
+        st.markdown(f"# Your inner plant is :rainbow[{st.session_state.plant}]!")
+        st.divider()
+        printResults(image_title,image_url)
         st.markdown(f'#### :violet[Learn more about :rainbow[{st.session_state.plant}]!]')
         st.html(html_text)
         st.write('Source: ', source_text)
     st.button('rerun', on_click=rerun_quiz)
+
+
