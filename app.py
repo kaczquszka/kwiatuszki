@@ -161,7 +161,7 @@ if st.session_state.step == 1:
 #https://docs.streamlit.io/develop/api-reference/layout/st.empty
     with form_placeholder.form("quiz_answers"):
         for name in st.session_state.info.keys():
-            st.session_state.info[name] = st.text_input(Questions[name])
+            st.session_state.info[name] = st.text_input(Questions[name][0])
 
         submit_button = st.form_submit_button("Submit")
 
