@@ -6,9 +6,9 @@ import wikipedia
 from transformers import pipeline
 import pandas as pd
 import pickle
-import time
 import re
-
+import random
+import time
 
 if 'sentiment' not in st.session_state:
     st.session_state.sentiment = {
@@ -21,8 +21,10 @@ if 'sentiment' not in st.session_state:
 
 if 'page' not in st.session_state:
     st.session_state.page = None
+
 if 'step' not in st.session_state:
     st.session_state.step = 1
+
 if 'info' not in st.session_state:
     st.session_state.info = {
     'Growth':None,
@@ -34,6 +36,15 @@ if 'info' not in st.session_state:
     
 if 'plant' not in st.session_state:
     st.session_state.plant = None     
+
+if 'question_number' not in st.session_state:
+    st.session_state.question_number = {
+    'Growth':None,
+    'Soil':None,
+    'Sunlight':None,
+    'Watering':None,
+    'Fertilization Type':None
+}  
 
 Questions = {
     "Growth": [
@@ -133,7 +144,7 @@ def printResults(image_title,image_url):
     results = pd.DataFrame(columns=['Category','Question','Your Answer', 'Sentiment assigned', 'Obtained trait'])
 
     for category in df.columns[1:]:
-        results.loc[len(results)]=[category,f'{Questions[category]}', f'{st.session_state.info[category]}',f'{st.session_state.sentiment[category]:.4f}',f'{df[df['Plant Name']==st.session_state.plant][category].values[0]}']
+        results.loc[len(results)]=[category,f'{Questions[category][st.session_state.question_number[category]]}', f'{st.session_state.info[category]}',f'{st.session_state.sentiment[category]:.4f}',f'{df[df['Plant Name']==st.session_state.plant][category].values[0]}']
     
     st.dataframe(results, hide_index=True)
     st.divider()
@@ -150,19 +161,29 @@ def getPhotoAndSummary():
     image_title= f"content/{title}.{media_type}"
     return html_text,source_text, image_title, image_url
 
+
+def init_quesions():
+    for name in st.session_state.question_number:
+        n = random.randint(0,(len(Questions[name])-1))
+        st.session_state.question_number[name] = n
+
+
 if st.session_state.step == 1:
     title_placeholder = st.empty()
     form_placeholder = st.empty()
+
     with title_placeholder.container():
         st.title('What is your inner plant?')
         st.markdown('_super serious project_')
         st.divider()
     
-#https://docs.streamlit.io/develop/api-reference/layout/st.empty
     with form_placeholder.form("quiz_answers"):
+        
+        if st.session_state.question_number['Growth'] == None:
+            init_quesions()
         for name in st.session_state.info.keys():
-            st.session_state.info[name] = st.text_input(Questions[name][0])
-
+            st.session_state.info[name] = st.text_input(Questions[name][st.session_state.question_number[name]])
+            print(st.session_state.info[name])
         submit_button = st.form_submit_button("Submit")
 
     if submit_button:
@@ -175,10 +196,14 @@ if st.session_state.step == 1:
 
         
 elif st.session_state.step == 2:  
-    st.write('hi')
+    left, mid ,right = st.columns([1,3,1])
+    with mid:
+        st.image('content/loading.gif')
+        st.write("https://www.pinterest.com/ideas/loading-gif/948421891026/")
     st.session_state.plant = getPrediction()
     st.session_state.page = findPage()
     st.session_state.step = 3
+    time.sleep(3)
     st.rerun()
 
 elif st.session_state.step == 3: 
