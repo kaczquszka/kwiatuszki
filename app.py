@@ -196,10 +196,10 @@ elif st.session_state.step == 2:
     with mid:
         st.image('content/loading.gif')
         st.write("https://www.pinterest.com/ideas/loading-gif/948421891026/")
-    st.session_state.plant = getPrediction()
-    st.session_state.page = findPage()
+    # st.session_state.plant = getPrediction()
+    # st.session_state.page = findPage()
     st.session_state.step = 3
-    time.sleep(3)
+    # time.sleep(3)
     st.rerun()
 
 elif st.session_state.step == 3: 
