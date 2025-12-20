@@ -170,11 +170,12 @@ def init_quesions():
 
 
 if st.session_state.step == 1:
-    # title_placeholder = st.empty()
+    title_placeholder = st.empty()
     
-    st.title('What is your inner plant?')
-    st.markdown('_super serious project_')
-    st.divider()
+    with title_placeholder:
+        st.title('What is your inner plant?')
+        st.markdown('_super serious project_')
+        st.divider()
     form_placeholder = st.empty()
     with form_placeholder.form("quiz_answers"):
         
@@ -190,23 +191,19 @@ if st.session_state.step == 1:
             st.warning('fill all of the fileds, please :)')
         else:
             form_placeholder.empty()
-            st.empty() 
+            title_placeholder.empty()
             go_to_step2()
 
         
 elif st.session_state.step == 2:  
-    w = st.empty() 
-    
-    with w:
-        left, mid ,right = st.columns([1,3,1])
-        with mid:
-            st.image('content/loading.gif')
-            st.write("https://www.pinterest.com/ideas/loading-gif/948421891026/")
-        st.session_state.plant = getPrediction()
-        st.session_state.page = findPage()
-        st.session_state.step = 3
+    left, mid ,right = st.columns([1,3,1])
+    with mid:
+        st.image('content/loading.gif')
+        st.write("https://www.pinterest.com/ideas/loading-gif/948421891026/")
+    st.session_state.plant = getPrediction()
+    st.session_state.page = findPage()
+    st.session_state.step = 3
     time.sleep(2)
-    w.empty()
     st.rerun()
 
 elif st.session_state.step == 3: 
