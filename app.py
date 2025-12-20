@@ -189,8 +189,7 @@ if st.session_state.step == 1:
         else:
             st.session_state.step=2
             form_placeholder.empty()
-            
-    st.rerun()        
+            st.rerun()        
         
 elif st.session_state.step == 2:  
     left, mid ,right = st.columns([1,3,1])
