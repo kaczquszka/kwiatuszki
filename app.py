@@ -84,7 +84,6 @@ Questions = {
 def go_to_step2():
     st.session_state.step=2
     st.rerun()
-    st.stop()
 
 def rerun_quiz():
     st.session_state.step=1 
@@ -111,8 +110,11 @@ def calculate_result(res_dict):
   
   return sentiment_value
 
+@st.cache_resource
+def load_pipeline():
+    return pipeline("text-classification", model="kaczquszka/fine-tuned-on-1000-answers-distilbert-base-uncased", top_k=3)
 def getPrediction():
-    pipe = pipeline("text-classification", model="kaczquszka/fine-tuned-on-1000-answers-distilbert-base-uncased", top_k = 3, batch_size=10)
+    pipe = load_pipeline()
     result = pipe([item for item in st.session_state.info.values()])
     res_dict = [{item['label']: item['score'] for item in item_list} for item_list in result]
     results = calculate_result(res_dict)
@@ -168,15 +170,15 @@ def init_quesions():
 
 
 if st.session_state.step == 1:
-    title_placeholder = st.empty()
-    form_placeholder = st.empty()
+    # title_placeholder = st.empty()
+    # form_placeholder = st.empty()
 
-    with title_placeholder.container():
-        st.title('What is your inner plant?')
-        st.markdown('_super serious project_')
-        st.divider()
     
-    with form_placeholder.form("quiz_answers"):
+    st.title('What is your inner plant?')
+    st.markdown('_super serious project_')
+    st.divider()
+    
+    with st.form("quiz_answers"):
         
         if st.session_state.question_number['Growth'] == None:
             init_quesions()
@@ -189,8 +191,6 @@ if st.session_state.step == 1:
         if not all(st.session_state.info.values()):
             st.warning('fill all of the fileds, please :)')
         else:
-            form_placeholder.empty()
-            title_placeholder.empty()
             go_to_step2()
 
         
