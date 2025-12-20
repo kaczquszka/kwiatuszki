@@ -171,14 +171,14 @@ def init_quesions():
 
 if st.session_state.step == 1:
     # title_placeholder = st.empty()
-    # form_placeholder = st.empty()
+    
 
     
     st.title('What is your inner plant?')
     st.markdown('_super serious project_')
     st.divider()
-    
-    with st.form("quiz_answers"):
+    form_placeholder = st.empty()
+    with form_placeholder.form("quiz_answers"):
         
         if st.session_state.question_number['Growth'] == None:
             init_quesions()
@@ -191,6 +191,7 @@ if st.session_state.step == 1:
         if not all(st.session_state.info.values()):
             st.warning('fill all of the fileds, please :)')
         else:
+            form_placeholder.empty()
             go_to_step2()
 
         
