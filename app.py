@@ -81,10 +81,6 @@ Questions = {
 }
 
 
-def go_to_step2():
-    st.session_state.step=2
-    st.rerun()
-
 def rerun_quiz():
     st.session_state.step=1 
 
@@ -176,10 +172,10 @@ if st.session_state.step == 1:
     title_placeholder = st.empty()
     form_placeholder = st.empty()
 
-    with title_placeholder.container():
-        st.title('What is your inner plant?')
-        st.markdown('_super serious project_')
-        st.divider()
+
+    st.title('What is your inner plant?')
+    st.markdown('_super serious project_')
+    st.divider()
     
     with form_placeholder.form("quiz_answers"):
         
@@ -194,9 +190,10 @@ if st.session_state.step == 1:
         if not all(st.session_state.info.values()):
             st.warning('fill all of the fileds, please :)')
         else:
+            st.session_state.step=2
             form_placeholder.empty()
-            title_placeholder.empty()
-            go_to_step2()
+            st.session_state.step=2
+            st.rerun()
 
         
 elif st.session_state.step == 2:  
