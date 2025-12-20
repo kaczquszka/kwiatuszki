@@ -173,7 +173,7 @@ if st.session_state.step == 1:
     # title_placeholder = st.empty()
     
 
-    
+    time.wait(1)
     st.title('What is your inner plant?')
     st.markdown('_super serious project_')
     st.divider()
@@ -192,10 +192,12 @@ if st.session_state.step == 1:
             st.warning('fill all of the fileds, please :)')
         else:
             form_placeholder.empty()
+            st.empty() 
             go_to_step2()
 
         
 elif st.session_state.step == 2:  
+    st.empty() 
     left, mid ,right = st.columns([1,3,1])
     with mid:
         st.image('content/loading.gif')
