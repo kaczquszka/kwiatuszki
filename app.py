@@ -109,10 +109,13 @@ def calculate_result(res_dict):
 
   
   return sentiment_value
-
 @st.cache_resource
 def load_pipeline():
     return pipeline("text-classification", model="kaczquszka/fine-tuned-on-1000-answers-distilbert-base-uncased", top_k=3)
+
+def getPrediction():
+    pipe = load_pipeline()
+    # ... rest of your code
 def getPrediction():
     pipe = load_pipeline()
     result = pipe([item for item in st.session_state.info.values()])
@@ -171,12 +174,13 @@ def init_quesions():
 
 if st.session_state.step == 1:
     title_placeholder = st.empty()
-    
-    with title_placeholder:
+    form_placeholder = st.empty()
+
+    with title_placeholder.container():
         st.title('What is your inner plant?')
         st.markdown('_super serious project_')
         st.divider()
-    form_placeholder = st.empty()
+    
     with form_placeholder.form("quiz_answers"):
         
         if st.session_state.question_number['Growth'] == None:
@@ -203,7 +207,7 @@ elif st.session_state.step == 2:
     st.session_state.plant = getPrediction()
     st.session_state.page = findPage()
     st.session_state.step = 3
-    time.sleep(2)
+    time.sleep(3)
     st.rerun()
 
 elif st.session_state.step == 3: 
