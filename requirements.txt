@@ -3,3 +3,5 @@ wikipedia-api
 wikipedia
 transformers
 pandas
+torch
+scikit-learn

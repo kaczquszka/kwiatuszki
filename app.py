@@ -1,6 +1,5 @@
 import streamlit as st
-# import os
-# import torch
+import torch
 import wikipediaapi
 import wikipedia
 from transformers import pipeline
