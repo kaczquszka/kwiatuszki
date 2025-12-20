@@ -169,14 +169,11 @@ def init_quesions():
 
 
 if st.session_state.step == 1:
-    title_placeholder = st.empty()
-    form_placeholder = st.empty()
-
-
     st.title('What is your inner plant?')
     st.markdown('_super serious project_')
     st.divider()
-    
+
+    form_placeholder = st.empty()
     with form_placeholder.form("quiz_answers"):
         
         if st.session_state.question_number['Growth'] == None:
@@ -192,8 +189,6 @@ if st.session_state.step == 1:
         else:
             st.session_state.step=2
             form_placeholder.empty()
-            st.session_state.step=2
-            st.rerun()
 
         
 elif st.session_state.step == 2:  
