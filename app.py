@@ -152,17 +152,16 @@ def printResults(image_title,image_url):
 def getPhotoAndSummary():
     plants_links = pd.read_csv("datasets/plants_links.csv")
     wiki = wikipediaapi.Wikipedia('plant-character-classification 1.0', language='en', extract_format=wikipediaapi.ExtractFormat.HTML)
-    if  plants_links.loc[plants_links['Names']==st.session_state.plant] :
-        st.session_state.page = wiki.page( plants_links.loc[plants_links['Names']==st.session_state.plant, 'Page Title'].values[0])
-        html_text = st.session_state.page.summary
-        source_text = st.session_state.page.fullurl
-        image_url = plants_links.loc[plants_links['Names']==st.session_state.plant, 'Links'].values[0]
-        media_type = image_url.rsplit(".",1)[-1].lower()
-        title = re.sub('\s','_', st.session_state.plant)
-        image_title= f"content/{title}.{media_type}"
-        return html_text,source_text, image_title, image_url
-    else:
-        return 0,0,0
+    print(st.session_state.plant)
+    st.session_state.page = wiki.page( plants_links.loc[plants_links['Names']==st.session_state.plant, 'Page Title'].values[0])
+
+    html_text = st.session_state.page.summary
+    source_text = st.session_state.page.fullurl
+    image_url = plants_links.loc[plants_links['Names']==st.session_state.plant, 'Links'].values[0]
+    media_type = image_url.rsplit(".",1)[-1].lower()
+    title = re.sub('\s','_', st.session_state.plant)
+    image_title= f"content/{title}.{media_type}"
+    return html_text,source_text, image_title, image_url
 
 
 def init_quesions():
@@ -195,12 +194,12 @@ if st.session_state.step == 1:
             st.rerun()        
         
 elif st.session_state.step == 2:  
-    left, mid ,right = st.columns([1,3,1])
-    with mid:
-        st.image('content/loading.gif')
-        st.write("https://www.pinterest.com/ideas/loading-gif/948421891026/")
-    # st.session_state.plant = getPrediction()
-    # st.session_state.page = findPage()
+    # left, mid ,right = st.columns([1,3,1])
+    # with mid:
+    #     st.image('content/loading.gif')
+    #     st.write("https://www.pinterest.com/ideas/loading-gif/948421891026/")
+    st.session_state.plant = getPrediction()
+    st.session_state.page = findPage()
     st.session_state.step = 3
     # time.sleep(3)
     st.rerun()
