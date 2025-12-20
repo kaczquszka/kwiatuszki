@@ -152,14 +152,17 @@ def printResults(image_title,image_url):
 def getPhotoAndSummary():
     plants_links = pd.read_csv("datasets/plants_links.csv")
     wiki = wikipediaapi.Wikipedia('plant-character-classification 1.0', language='en', extract_format=wikipediaapi.ExtractFormat.HTML)
-    st.session_state.page = wiki.page( plants_links.loc[plants_links['Names']==st.session_state.plant, 'Page Title'].values[0])
-    html_text = st.session_state.page.summary
-    source_text = st.session_state.page.fullurl
-    image_url = plants_links.loc[plants_links['Names']==st.session_state.plant, 'Links'].values[0]
-    media_type = image_url.rsplit(".",1)[-1].lower()
-    title = re.sub('\s','_', st.session_state.plant)
-    image_title= f"content/{title}.{media_type}"
-    return html_text,source_text, image_title, image_url
+    if  plants_links.loc[plants_links['Names']==st.session_state.plant] :
+        st.session_state.page = wiki.page( plants_links.loc[plants_links['Names']==st.session_state.plant, 'Page Title'].values[0])
+        html_text = st.session_state.page.summary
+        source_text = st.session_state.page.fullurl
+        image_url = plants_links.loc[plants_links['Names']==st.session_state.plant, 'Links'].values[0]
+        media_type = image_url.rsplit(".",1)[-1].lower()
+        title = re.sub('\s','_', st.session_state.plant)
+        image_title= f"content/{title}.{media_type}"
+        return html_text,source_text, image_title, image_url
+    else:
+        return 0,0,0
 
 
 def init_quesions():
