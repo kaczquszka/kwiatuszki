@@ -188,7 +188,7 @@ if st.session_state.step == 1:
             st.warning('fill all of the fileds, please :)')
         else:
             st.session_state.step=2
-            form_placeholder.empty()
+            st.empty()
             st.rerun()        
         
 elif st.session_state.step == 2:  
