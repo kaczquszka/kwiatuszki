@@ -172,8 +172,6 @@ def init_quesions():
 if st.session_state.step == 1:
     # title_placeholder = st.empty()
     
-
-    time.wait(1)
     st.title('What is your inner plant?')
     st.markdown('_super serious project_')
     st.divider()
