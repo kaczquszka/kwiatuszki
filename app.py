@@ -195,15 +195,18 @@ if st.session_state.step == 1:
 
         
 elif st.session_state.step == 2:  
-    st.empty() 
-    left, mid ,right = st.columns([1,3,1])
-    with mid:
-        st.image('content/loading.gif')
-        st.write("https://www.pinterest.com/ideas/loading-gif/948421891026/")
-    st.session_state.plant = getPrediction()
-    st.session_state.page = findPage()
-    st.session_state.step = 3
-    time.sleep(3)
+    w = st.empty() 
+    
+    with w:
+        left, mid ,right = st.columns([1,3,1])
+        with mid:
+            st.image('content/loading.gif')
+            st.write("https://www.pinterest.com/ideas/loading-gif/948421891026/")
+        st.session_state.plant = getPrediction()
+        st.session_state.page = findPage()
+        st.session_state.step = 3
+    time.sleep(2)
+    w.empty()
     st.rerun()
 
 elif st.session_state.step == 3: 
