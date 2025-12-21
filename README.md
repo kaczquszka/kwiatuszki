@@ -6,7 +6,7 @@ The application is deployed as an interactive Streamlit web app and can be acces
 
 
 # What is the logic behind the classificatiton?
-The questions in the quiz are mapped to specific traits of plants.
+The questions in the quiz are mapped to specific traits of plants. /n
 There are five groups of traits: Growth, Soil, Sunlight, Watering and Fertilizer
 Each of the groups describe specifications of the plants, eg. how often do you need to water them.
 Each of the groups also correspond to specific human traits:
