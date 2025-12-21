@@ -26,14 +26,14 @@ After the appropariate plant is selected, the results are displayed to user.
 
 Along with the verdict user also gets to see the photo of the plant along with DataFrame showing the results of sentimnet analysis along with apropariate question, answer and trait of the plant it concerns. The app also displays first paragraph of wikipedia page, briefly describing the obtained plant.
 
-#Technologies used in project
-##Machine Learning
-DistilBert fine-tuning
+# Technologies used in project
+## Machine Learning
+## DistilBert fine-tuning
 The fine tuning of DistilBert was performed using dataset of short answers that were obtained from responses to forms. To make the dataset bigger, similar responses were then added.
 
-k-Nearest Neighbours
+## k-Nearest Neighbours
 The model was trained on a dataset from kaggle :. Before training the model, appropariate data cleansing was performed. (the code can be seen in file 'data_cleansing.py' in catalog 'scripts')
-Data cleansing steps I did:
+**Data cleansing steps I did:**
 Droping duplicates of the same plant entries
 Fixing typos in column naming
 Keeping only one row if many entries have the same trait values in every column
