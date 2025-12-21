@@ -171,8 +171,8 @@ def init_quesions():
 
 
 if st.session_state.step == 1:
-    st.title('What is your inner plant?')
-    st.markdown('_super serious project_')
+    st.title('What is your inner plant? 🪴🍄')
+    st.markdown('Answer the questions and find out!')
     st.divider()
 
     form_placeholder = st.empty()
@@ -183,7 +183,7 @@ if st.session_state.step == 1:
         for name in st.session_state.info.keys():
             st.session_state.info[name] = st.text_input(Questions[name][st.session_state.question_number[name]])
             print(st.session_state.info[name])
-        submit_button = st.form_submit_button("Submit")
+        submit_button = st.form_submit_button(label ="Submit")
 
     if submit_button:
         if not all(st.session_state.info.values()):

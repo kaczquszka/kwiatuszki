@@ -8,7 +8,7 @@ df = pd.read_csv('datasets/numerical_plants.csv')
 y = df.iloc[:,0].values
 X = df.iloc[:,1:].values
 
-classifier = KNeighborsClassifier(n_neighbors=1, metric='minkowski')
+classifier = KNeighborsClassifier(n_neighbors=1, metric='minkowski', p =4)
 classifier.fit(X,y)
 
 filename = 'content/knn_classifier.svn'
