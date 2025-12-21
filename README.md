@@ -24,8 +24,8 @@ Then using k-NN classifier that was trained on dataset consisting of over 200 en
  <br />
 After the appropariate plant is selected, the results are displayed to user.
  <br />
- * * Example results: * *
- <img width="839" height="907" alt="image" src="https://github.com/user-attachments/assets/0ca9a41f-ca26-45b6-abbe-dd8ff373894e" />
+*Example results:*
+ <img width="280" height="303" alt="image" src="https://github.com/user-attachments/assets/0ca9a41f-ca26-45b6-abbe-dd8ff373894e" />
 
 Along with the verdict user also gets to see the photo of the plant along with DataFrame showing the results of sentimnet analysis along with apropariate question, answer and trait of the plant it concerns. The app also displays first paragraph of wikipedia page, briefly describing the obtained plant.
  <br />
