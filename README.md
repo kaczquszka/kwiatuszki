@@ -26,10 +26,11 @@ After the appropariate plant is selected, the results are displayed to user.
  <br /><br/>
 <br/>
 Along with the verdict user also gets to see the photo of the plant along with DataFrame showing the results of sentimnet analysis along with apropariate question, answer and trait of the plant it concerns. The app also displays first paragraph of wikipedia page, briefly describing the obtained plant.
- <br />
+ <br /> <br />
  *Example results:*<br/>
- <img width="560" height="606" alt="image" src="https://github.com/user-attachments/assets/0ca9a41f-ca26-45b6-abbe-dd8ff373894e" />
- <img width="560" height="606" alt="image" src="https://github.com/user-attachments/assets/8bb0e54b-11f3-4160-b1a0-30144484dea6" />
+ <img width="560" height="606" alt="image" src="https://github.com/user-attachments/assets/0ca9a41f-ca26-45b6-abbe-dd8ff373894e" /> <br />
+ <img width="440" height="460" alt="image" src="https://github.com/user-attachments/assets/a72ede71-7674-4ac6-bee3-57ef9b7e7ac0" />
+
 
 # Technologies used in project
 ## Machine Learning
