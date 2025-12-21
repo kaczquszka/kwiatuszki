@@ -39,7 +39,7 @@ The fine tuning of DistilBert was performed using dataset of short answers that 
  <br /><br/>
 ### k-Nearest Neighbours
 The model was trained on a dataset from kaggle :. Before training the model, appropariate data cleansing was performed. (the code can be seen in file 'data_cleansing.py' in catalog 'scripts') <br /> <br />
-**Data cleansing steps I did:**
+**Data cleansing steps:**<br/>
 Droping duplicates of the same plant entries <br />
 Fixing typos in column naming <br />
 Keeping only one row if many entries have the same trait values in every column <br />
