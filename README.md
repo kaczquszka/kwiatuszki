@@ -10,11 +10,11 @@ The questions in the quiz are mapped to specific traits of plants. <br />
 There are five groups of traits: Growth, Soil, Sunlight, Watering and Fertilizer <br />
 Each of the groups describe specifications of the plants, eg. how often do you need to water them. <br />
 Each of the groups also correspond to specific human traits: <br />
-Growth - how fast can one learn. <br />
-Soil - how much of an extrovert or a conformist one is. <br />
-Sunlight - how much does one like sunny and hot weather. <br />
-Watering - how much does one like water related activities such as swimming, etc. <br />
-Fertilization - how good and balanced is ones diet. <br />
+**Growth** - how fast can one learn. <br />
+**Soil** - how much of an extrovert or a conformist one is. <br />
+**Sunlight** - how much does one like sunny and hot weather. <br />
+**Watering** - how much does one like water related activities such as swimming, etc. <br />
+**Fertilization** - how good and balanced is ones diet. <br />
  <br />
 Via five question form, user is asked to answer one question from each group. The questions are created in a way that forces user to explain their attitude or liking towards the conserned topic, eg. Trait: Growth, Question: "How eager are you to learn new technologies?".
  <br />
@@ -24,6 +24,9 @@ Then using k-NN classifier that was trained on dataset consisting of over 200 en
  <br />
 After the appropariate plant is selected, the results are displayed to user.
  <br />
+ * * Example results: * *
+ <img width="839" height="907" alt="image" src="https://github.com/user-attachments/assets/0ca9a41f-ca26-45b6-abbe-dd8ff373894e" />
+
 Along with the verdict user also gets to see the photo of the plant along with DataFrame showing the results of sentimnet analysis along with apropariate question, answer and trait of the plant it concerns. The app also displays first paragraph of wikipedia page, briefly describing the obtained plant.
  <br />
 # Technologies used in project
