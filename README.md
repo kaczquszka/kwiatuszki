@@ -24,18 +24,20 @@ Then using k-NN classifier that was trained on dataset consisting of over 200 en
  <br /><br/>
 After the appropariate plant is selected, the results are displayed to user.
  <br /><br/>
-*Example results:*<br/>
- <img width="560" height="606" alt="image" src="https://github.com/user-attachments/assets/0ca9a41f-ca26-45b6-abbe-dd8ff373894e" />
 <br/>
 Along with the verdict user also gets to see the photo of the plant along with DataFrame showing the results of sentimnet analysis along with apropariate question, answer and trait of the plant it concerns. The app also displays first paragraph of wikipedia page, briefly describing the obtained plant.
  <br />
+ *Example results:*<br/>
+ <img width="560" height="606" alt="image" src="https://github.com/user-attachments/assets/0ca9a41f-ca26-45b6-abbe-dd8ff373894e" />
+ <img width="426" height="400" alt="image" src="https://github.com/user-attachments/assets/8bb0e54b-11f3-4160-b1a0-30144484dea6" />
+
 # Technologies used in project
 ## Machine Learning
-## DistilBert fine-tuning
+### DistilBert fine-tuning
 The fine tuning of DistilBert was performed using dataset of short answers that were obtained from responses to forms. To make the dataset bigger, similar responses were then added.
  <br /><br/>
-## k-Nearest Neighbours
-The model was trained on a dataset from kaggle :. Before training the model, appropariate data cleansing was performed. (the code can be seen in file 'data_cleansing.py' in catalog 'scripts')
+### k-Nearest Neighbours
+The model was trained on a dataset from kaggle :. Before training the model, appropariate data cleansing was performed. (the code can be seen in file 'data_cleansing.py' in catalog 'scripts') <br /> <br />
 **Data cleansing steps I did:**
 Droping duplicates of the same plant entries <br />
 Fixing typos in column naming <br />
