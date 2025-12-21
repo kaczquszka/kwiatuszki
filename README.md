@@ -29,7 +29,7 @@ Along with the verdict user also gets to see the photo of the plant along with D
  <br />
  *Example results:*<br/>
  <img width="560" height="606" alt="image" src="https://github.com/user-attachments/assets/0ca9a41f-ca26-45b6-abbe-dd8ff373894e" />
- <img width="426" height="400" alt="image" src="https://github.com/user-attachments/assets/8bb0e54b-11f3-4160-b1a0-30144484dea6" />
+ <img width="560" height="606" alt="image" src="https://github.com/user-attachments/assets/8bb0e54b-11f3-4160-b1a0-30144484dea6" />
 
 # Technologies used in project
 ## Machine Learning
