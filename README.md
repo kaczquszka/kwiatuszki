@@ -10,11 +10,11 @@ The questions in the quiz are mapped to specific traits of plants. <br /><br/>
 There are five groups of traits: Growth, Soil, Sunlight, Watering and Fertilizer <br /><br/>
 Each of the groups describe specifications of the plants, eg. how often do you need to water them. <br /><br/>
 Each of the groups also correspond to specific human traits: <br />
-**Growth** - how fast can one learn. 🎓📚<br />
-**Soil** - how much of an extrovert or a conformist one is. 🌱🤝<br />
-**Sunlight** - how much does one like sunny and hot weather. ☀️😎 <br />
-**Watering** - how much does one like water related activities such as swimming, etc. 💧🏊‍♂️ <br />
-**Fertilization** - how good and balanced is ones diet. 🥗🍕<br />
+**Growth** - how fast can one learn.<br />
+**Soil** - how much of an extrovert or a conformist one is.<br />
+**Sunlight** - how much does one like sunny and hot weather.<br />
+**Watering** - how much does one like water related activities such as swimming, etc. <br />
+**Fertilization** - how good and balanced is ones diet.<br />
  <br />
 Via five question form, user is asked to answer one question from each group. The questions are created in a way that forces user to explain their attitude or liking towards the conserned topic, eg. Trait: Growth, Question: "How eager are you to learn new technologies?".
  <br /><br/>
