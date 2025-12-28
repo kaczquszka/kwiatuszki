@@ -9,7 +9,7 @@ This project is an NLP-based personality classification application that maps us
 The questions in the quiz are mapped to specific traits of plants. <br /><br/>
 There are five groups of traits: Growth, Soil, Sunlight, Watering and Fertilizer <br /><br/>
 Each of the groups describe specifications of the plants, eg. how often do you need to water them. <br /><br/>
-Each of the groups also correspond to specific human traits: <br />
+Each of the groups also correspond to specific human traits: <br /><br/>
 **Growth** - how fast can one learn.<br />
 **Soil** - how much of an extrovert or a conformist one is.<br />
 **Sunlight** - how much does one like sunny and hot weather.<br />
